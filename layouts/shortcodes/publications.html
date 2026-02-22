@@ -1,0 +1,31 @@
+<div class="pub-list">
+
+{{ range sort site.Data.publications "year" "desc" }}
+
+  <div class="pub-item">
+
+    <!-- Title -->
+    <div class="pub-title">
+      {{ .title }}
+    </div>
+
+    <!-- Authors -->
+    {{ with .authors }}
+      <div class="pub-authors">{{ . }}</div>
+    {{ end }}
+
+    <!-- Journal line -->
+    <div class="pub-journal-line">
+      {{ with .journal }}
+        <strong>{{ . }}</strong>
+      {{ end }}
+      {{ with .volume }} {{ . }}{{ end }}
+      {{ with .year }} ({{ . }}){{ end }}
+      {{ with .pages }} {{ . }}{{ end }}.
+    </div>
+
+  </div>
+
+{{ end }}
+
+</div>
