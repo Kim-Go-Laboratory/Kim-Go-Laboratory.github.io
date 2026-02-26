@@ -67,7 +67,19 @@ sections:
         {{< /rawhtml >}}
 
         {{< banner_title "Examples" >}}
+        <div class="examples-video-wrap">
+            <h3 style="margin:0 0 6px 0;">Video on the Shape Memory Effect</h3>
 
+           <div class="examples-video">
+             <video controls playsinline>
+            <source src="/videos/intro1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+         </video>
+        </div>
+
+
+
+         </div>
         {{< rawhtml >}}
         <div class="examples-wrap">
 

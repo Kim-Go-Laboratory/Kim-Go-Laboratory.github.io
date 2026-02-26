@@ -65,8 +65,17 @@ sections:
       title: ''
       subtitle: ''
       text: |-
-        <h2 class="news-title">News &amp; Events</h2>
-        {{< news_table >}}
+              <br>
+              
+              ## About our Laboratory
+              <div class="examples-video">
+               <video controls playsinline>
+                <source src="/videos/intro2.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                 </div>
+                   <h2 class="news-title">News &amp; Events</h2>
+                  {{< news_table >}}
 
   
        
