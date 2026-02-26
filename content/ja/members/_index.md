@@ -163,7 +163,6 @@
     <li>M2||田中　大翔 (たなか ひろと)||</li>
     <li>M2||古橋　愛実 (ふるはし あみ)||</li>
     <li>M2||南部　孝尚 (なんぶ たかなお)||</li>
-    <li>Visiting Student (M1)||French||XX University</li>
   </ul>
 </div>
 
