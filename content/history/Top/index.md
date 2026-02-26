@@ -8,7 +8,7 @@ share: false
 sections:
   - block: markdown
     content:
-      title: What is a shape memory alloy?
+      title: 
       text: |-
 
         {{< rawhtml >}}
@@ -23,6 +23,7 @@ sections:
         </style>
         <div class="justify-text">
         {{< /rawhtml >}}
+        ### What is a shape memory alloy?
 
         When an external force is applied to a metal, deformation occurs. In ordinary metals, once plastic deformation takes place, the material remains permanently deformed. However, in shape memory alloys, heating causes the material to recover its original shape that was established through prior training treatment. This phenomenon is known as the shape memory effect. A shape memory alloy is a general term for alloys that exhibit this effect.
 
