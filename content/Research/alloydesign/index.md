@@ -28,6 +28,7 @@ sections:
         Currently, the only shape memory alloy commercially used in medical applications is the Ti–Ni alloy (Nitinol). However, Ni, which accounts for approximately half of the alloy composition, has strong allergenic potential. Although very few problems related to Ni have been reported in clinical applications of Ti–Ni alloys, this is thought to be due to their ordered crystal structure and the strong bonding between Ti and Ni, which suppresses Ni ion release. Nevertheless, concerns regarding Ni allergy among patients cannot be completely eliminated. Therefore, to further accelerate the application of shape memory alloys in the medical field, the development of Ni-free β-type Ti-based shape memory and superelastic alloys is essential. Table 1 summarizes Ni-free β-type Ti-based shape memory alloys reported to date.
 
         **Table 1. Reported Biomedical Ni-Free β-Type Ti-Based Shape Memory Alloys**
+        <div class="table-wrapper">
 
         | Alloy System | Reference |
         |---|---|
@@ -40,6 +41,7 @@ sections:
         | Ti-Nb-Zr | J. I. Kim, H. Y. Kim, T. Inamura, H. Hosoda and S. Miyazaki (2005) |
         | Ti-Nb-Ta | H. Y. Kim, S. Hashimoto, J. I. Kim, T. Inamura, H. Hosoda and S. Miyazaki (2006) |
         | Ti-Nb-Pt | H. Y. Kim, N. Oshika, J. I. Kim, T. Inamura, H. Hosoda and S. Miyazaki (2007) |
+        </div>
 
         β-type Ti alloys are characterized by a lower Young’s modulus (~60 GPa) compared with pure Ti and α+β-type Ti alloys (~100 GPa). Because this value is closer to that of bone (~20 GPa), β-type Ti alloys have attracted significant attention as next-generation biomedical metallic materials for bone replacement devices such as bone plates and artificial hip joints. In recent years, extensive research has been conducted worldwide on β-type Ti alloys, with particular emphasis on achieving both low Young’s modulus and high strength—properties that are generally considered contradictory.
 

@@ -12,10 +12,11 @@ body{
 :root{
   --content-max: 1300px;
   --content-pad: 60px;
-
   --subpage-banner-h: clamp(180px, 35vh, 320px);
   --nav-h: 76px;            /* 네비 높이(필요시 64~90 조절) */
 }
+
+
 @media (max-width: 768px){
   :root{
     --content-max: 100%;
@@ -91,7 +92,7 @@ main article figure,
 .navbar-nav .nav-link,
 .navbar .nav-item > a,
 .menu a{
-  font-size: 1.35rem !important;
+  font-size: 1.2rem !important;
   font-weight: 400 !important;
   padding-top: 0.9rem !important;
   padding-bottom: 0.9rem !important;
@@ -1355,3 +1356,17 @@ img, video, iframe{ max-width: 100%; height: auto; }
   }
 }
 
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table-wrapper table {
+  min-width: 600px;
+  border-collapse: collapse;
+}
+
+.table-wrapper th,
+.table-wrapper td {
+  white-space: nowrap;
+}

@@ -16,6 +16,9 @@ sections:
 
         **表1　現在までに報告されている生体用Ti基形状記憶合金**
 
+        <div class="table-wrapper">
+
+
         | 合金系 | 文献 |
         |---|---|
         | Ti-Mo-Ga | H. Hosoda, Y. Omatsu and S. Miyazaki (2001) |
@@ -27,6 +30,10 @@ sections:
         | Ti-Nb-Zr | J. I. Kim, H. Y. Kim, T. Inamura, H. Hosoda and S. Miyazaki (2005) |
         | Ti-Nb-Ta | H. Y. Kim, S. Hashimoto, J. I. Kim, T. Inamura, H. Hosoda and S. Miyazaki (2006) |
         | Ti-Nb-Pt | H. Y. Kim, N. Oshika, J. I. Kim, T. Inamura, H. Hosoda and S. Miyazaki (2007) |
+
+        </div>
+        
+
 
         　また、β型Ti合金は、純Tiやα+β型Ti合金(～100GPa)に比べてヤング率が低いこと(～60GPa)が特徴です。その値が骨のヤング率(～20GPa)に近いことから、β型Ti合金はボーンプレートや人工股関節などの骨の代替器具に使用される新たな生体用金属材料として注目されています。β型Ti合金に対する研究は、近年、国内外で活発に行われており、低ヤング率かつ高強度という相反する性質を両立させた合金の開発が求められています。
 

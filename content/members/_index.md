@@ -162,7 +162,6 @@
     <li>M2||Hiroto Tanaka||</li>
     <li>M2||Ami Furuhashi||</li>
     <li>M2||Takanao Nambu||</li>
-    <li>Visiting Student (M1)||French||XX University</li>
   </ul>
 </div>
 
