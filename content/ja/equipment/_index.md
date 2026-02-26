@@ -7,10 +7,6 @@
 {{< rawhtml >}}
 
 <style>
-/* =========================
-   Equipment Table Style (JP)
-   ========================= */
-
 /* Scroll wrapper (모바일에서 잘리지 않게) */
 .table-scroll{
   width:100%;
@@ -23,13 +19,12 @@
   width:100%;
   border-collapse:collapse;
   margin-bottom:28px;
-  table-layout:auto;
 }
 
 .equip-table td{
   border:1px solid #e5e5e5;
   padding:10px 14px;
-  vertical-align:middle;
+  vertical-align:middle; /* center → middle (정상값) */
 }
 
 /* Column styling */
@@ -38,13 +33,11 @@
   text-align:center;
   font-weight:600;
   background:#fafafa;
-  white-space:nowrap;
 }
 
 .equip-name{
   width:260px;
   font-weight:600;
-  white-space:nowrap; /* 장비명 줄바꿈 과도 방지 */
 }
 
 .equip-note{
@@ -52,7 +45,6 @@
   text-justify:inter-word;
   hyphens:auto;
   line-height:1.6;
-  min-width:420px; /* 모바일에서 가독성 + 스크롤 유도 */
 }
 
 /* Section spacing */
@@ -70,15 +62,13 @@ h2{
   }
 
   .equip-name{
-    width:auto;          /* 고정 260px 해제 */
-    white-space:normal;  /* 모바일에서는 장비명 줄바꿈 허용 */
+    width:auto; /* 고정 260px 해제 */
   }
 
   .equip-note{
     text-align:left;  /* justify 해제 */
     hyphens:none;
     word-break:keep-all;
-    min-width:520px;  /* 모바일에서 표가 억지로 쪼그라들지 않게 */
   }
 
 }
@@ -88,41 +78,41 @@ h2{
 <hr>
 
 <div class="table-scroll">
-  <table class="equip-table">
-    <tr><td>非消耗電極型アーク炉||金属をアーク溶解してボタン材を作ります。ここでの配合、不純物除去で出来上がる合金の良し悪しが決まります。</td></tr>
-    <tr><td>各種電気炉||合金の熱処理を行います。高温用や長時間時効用など各種の電気炉があります。</td></tr>
-    <tr><td>ワイヤー放電加工機||アーク放電を用いて複雑かつ精密な加工を行います。</td></tr>
-    <tr><td>冷間圧延機||ロール圧延により、バルク試料の冷間圧延を行います。</td></tr>
-    <tr><td>回転研磨機||金属組織観察のため表面研磨を行うのに用います。</td></tr>
-  </table>
+<table class="equip-table">
+<tr><td>非消耗電極型アーク炉||金属をアーク溶解してボタン材を作製します。ここでの配合や不純物除去の良し悪しが、最終合金の品質を大きく左右します。</td></tr>
+<tr><td>各種電気炉||合金の熱処理に用います。高温炉や長時間時効炉など、各種の電気炉があります。</td></tr>
+<tr><td>ワイヤー放電加工機||アーク放電を用いて、複雑かつ高精度な加工を行います。</td></tr>
+<tr><td>冷間圧延機||ロール圧延により、バルク試料の冷間圧延を行います。</td></tr>
+<tr><td>回転研磨機||金属組織観察のための表面研磨に用います。</td></tr>
+</table>
 </div>
 
 <h2>特性評価関連</h2>
 <hr>
 
 <div class="table-scroll">
-  <table class="equip-table">
-    <tr><td>引張試験機||形状記憶合金の引張り試験をします。形状記憶合金の変形挙動や金属としての一般的機械特性を調べます。</td></tr>
-    <tr><td>疲労試験機||金属材料の繰返し荷重に対する強さを評価できます。</td></tr>
-    <tr><td>光学顕微鏡||試料表面の組織観察に用います。最大1000倍までの観察ができます。付属のXYZリニアステージを用いることで対象物の精密な形状測定が可能です。</td></tr>
-    <tr><td>走査型電子顕微鏡 (SEM-EBSD)||試料に電子線をあて、反射してきた電子から得られる像を観察する顕微鏡です。試料表面の形状や表面近傍の内部構造を観察するのに適しています。</td></tr>
-    <tr><td>X線回折装置||相同定を行ったり、結晶の格子定数や方位分布を調べることができます。低温から高温まで測定が可能です。</td></tr>
-    <tr><td>熱機械分析装置||温度や荷重を変えて機械的特性を調べることができます。温度-歪み曲線などから形状記憶特性の評価を行います。</td></tr>
-    <tr><td>示差走査熱量計 (DSC)||金属の相変態温度及びその熱量を測ります。マルテンサイト変態温度などが調べられる中低温用と、融点や規則-不規則変態などが調べられる高温用があります。</td></tr>
-    <tr><td>硬度測定試験機||ビッカース硬度、ヌープ硬度などの圧痕式硬度試験を行います。</td></tr>
-  </table>
+<table class="equip-table">
+<tr><td>引張試験機||形状記憶合金の引張試験を行い、変形挙動や一般的な機械特性を評価します。</td></tr>
+<tr><td>疲労試験機||金属材料の繰返し荷重に対する強さ（疲労特性）を評価します。</td></tr>
+<tr><td>光学顕微鏡||試料表面の組織観察に用います。最大1000倍まで観察可能です。付属のXYZリニアステージにより、精密な寸法測定も行えます。</td></tr>
+<tr><td>走査型電子顕微鏡 (SEM-EBSD)||試料に電子線を照射し、反射電子などから得られる像を観察します。表面形状や表面近傍の内部構造観察に適しています。</td></tr>
+<tr><td>X線回折装置||相同定、格子定数、結晶方位分布の評価に用います。低温から高温まで測定可能です。</td></tr>
+<tr><td>熱機械分析装置 (TMA)||温度や荷重を変化させながら機械的特性を評価します。温度-ひずみ曲線などから形状記憶特性の解析が可能です。</td></tr>
+<tr><td>示差走査熱量計 (DSC)||金属の相変態温度および変態熱を測定します。中低温DSCはマルテンサイト変態温度、高温DSCは融点や規則-不規則変態などの評価に用います。</td></tr>
+<tr><td>硬度計||ビッカース硬度、ヌープ硬度などの圧痕硬度試験を行います。</td></tr>
+</table>
 </div>
 
 <h2>共通設備</h2>
 <hr>
 
 <div class="table-scroll">
-  <table class="equip-table">
-    <tr><td>電子線マイクロアナライザ (EPMA)||作製した合金、リボン、薄膜などの組成を測定します。</td></tr>
-    <tr><td>X線光電子分光装置 (XPS)||超高真空中におかれた固体試料表面に電磁波を照射し、光電効果により真空中に放出される光電子の運動エネルギーを測定することによって、試料表面の元素分析や元素の結合状態、存在状態を判定するための装置です。</td></tr>
-    <tr><td>集束イオンビーム (FIB)||イオンビームを試料面に照射してスパッタリングすることによって試料表面の加工を行います。この加工によってTEM観察用の試料を作製することができます。</td></tr>
-    <tr><td>透過型電子顕微鏡 (TEM)||試料に電子線をあて、試料を透過した電子による像を拡大して観察する顕微鏡です。格子像で0.1nmの高分解能を持つ電子顕微鏡であり、原子配列の観察が可能です。加熱冷却フォルダを用いることにより、相変態をその場で観察することもできます。</td></tr>
-  </table>
+<table class="equip-table">
+<tr><td>電子線マイクロアナライザ (EPMA)||作製した合金、リボン、薄膜などの組成を測定します。</td></tr>
+<tr><td>X線光電子分光装置 (XPS)||超高真空中で固体試料表面にX線を照射し、光電効果で放出される光電子の運動エネルギーを測定します。表面の元素組成、化学結合状態、電子状態を解析できます。</td></tr>
+<tr><td>集束イオンビーム (FIB)||イオンビームによるスパッタリングで試料表面を加工します。TEM観察用試料の作製などに用います。</td></tr>
+<tr><td>透過型電子顕微鏡 (TEM)||試料を透過した電子による像を拡大して観察します。格子像で0.1 nmの分解能を持ち、原子配列の観察が可能です。加熱・冷却ホルダーにより、相変態のその場観察も行えます。</td></tr>
+</table>
 </div>
 
 <script>
@@ -135,11 +125,11 @@ document.addEventListener("DOMContentLoaded", function(){
       let cell = tr.querySelector("td");
       if(!cell) return;
 
-      let text = cell.textContent || "";
-      let parts = text.split("||");
+      let text = cell.textContent;
 
-      let name = (parts[0] || "").trim();
-      let note = (parts[1] || "").trim();
+      let parts = text.split("||");
+      let name = parts[0].trim();
+      let note = parts[1] ? parts[1].trim() : "";
 
       tr.innerHTML = "";
 
