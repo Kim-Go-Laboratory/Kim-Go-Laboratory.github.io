@@ -12,15 +12,6 @@ sections:
         {{< rawhtml >}}
         {{< banner_title "動作例" >}}
 
-            <h3 style="margin:0 0 6px 0;">形状記憶効果に関する動画</h3>
-        <div style="display:flex; gap:48px; align-items:flex-start; flex-wrap:wrap;">
-                   <div class="examples-video">
-             <video controls playsinline>
-            <source src="/videos/intro1.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-         </video>
-        </div>
-
 
           <!-- 왼쪽: 形状記憶効果 -->
           <div style="flex:1 1 360px; min-width:0;">
