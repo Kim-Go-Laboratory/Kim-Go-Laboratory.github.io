@@ -2,7 +2,7 @@
   <div class="lab-footer__wrap">
 
     <div class="lab-footer__top">
-      <!-- LEFT -->
+      <!-- LEFT (그대로 유지) -->
       <div class="lab-footer__left">
         <div class="lab-footer__lab">金・高研究室</div>
 
@@ -13,23 +13,41 @@
         </address>
       </div>
 
-      <!-- RIGHT MENU -->
+      <!-- RIGHT MENU (언어별 변경) -->
       <nav class="lab-footer__menu" aria-label="Footer navigation">
-        <a href="/">ホーム</a>
-        <a href="/history/">形状記憶合金とは</a>
-        <a href="/members/">メンバー</a>
-        <a href="/research/">研究</a>
-        <a href="/Equipment/">研究設備</a>
-        <a href="/achievement/">成果</a>
-        <a href="/experience/">活動</a>
-        <a href="/howtojoin/">配属希望の方へ</a>
-        <a href="/access/">アクセス・連絡先</a>
+
+        {{ if eq .Site.Language.Lang "ja" }}
+
+          <a href="{{ "/" | relLangURL }}">ホーム</a>
+          <a href="{{ "/history/top" | relLangURL }}">形状記憶合金とは</a>
+          <a href="{{ "/members/" | relLangURL }}">メンバー</a>
+          <a href="{{ "/research/" | relLangURL }}">研究</a>
+          <a href="{{ "/equipment/" | relLangURL }}">研究設備</a>
+          <a href="{{ "/achievement/" | relLangURL }}">成果</a>
+          <a href="{{ "/experience/" | relLangURL }}">活動</a>
+          <a href="{{ "/howtojoin/" | relLangURL }}">配属希望の方へ</a>
+          <a href="{{ "/access/" | relLangURL }}">アクセス</a>
+
+        {{ else }}
+
+          <a href="{{ "/" | relLangURL }}">Home</a>
+          <a href="{{ "/history/top" | relLangURL }}">Shape Memory Alloy</a>
+          <a href="{{ "/members/" | relLangURL }}">Members</a>
+          <a href="{{ "/research/" | relLangURL }}">Research</a>
+          <a href="{{ "/equipment/" | relLangURL }}">Equipment</a>
+          <a href="{{ "/achievement/" | relLangURL }}">Achievements</a>
+          <a href="{{ "/experience/" | relLangURL }}">Activities</a>
+          <a href="{{ "/howtojoin/" | relLangURL }}">For Prospective Students</a>
+          <a href="{{ "/access/" | relLangURL }}">Access</a>
+
+        {{ end }}
+
       </nav>
     </div>
 
     <!-- BOTTOM LOGOS -->
     <div class="lab-footer__bottom">
-      <img src="/images/logo.png" alt="University of Tsukuba logo">
+      <img src="{{ "/images/logo.png" | relURL }}" alt="University of Tsukuba logo">
     </div>
 
   </div>

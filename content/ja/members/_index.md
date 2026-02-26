@@ -4,6 +4,73 @@
 
 {{< banner_title "Members" >}}
 
+{{< rawhtml >}}
+<style>
+/* ✅ 테마의 section-bar(파란계통) 색을 건드리지 않기 위해
+   margin/padding만 최소로 조정 (background 지정 X) */
+.section-bar{
+  margin: 18px 0 10px;
+  padding: 8px 12px;
+}
+
+/* 모바일에서 잘리지 않게: 숨기지 말고 스크롤 허용 */
+.table-wrap{
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 18px;
+}
+
+/* 공통 테이블 */
+.members-table,
+.researcher-table,
+.student-table{
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+/* 셀 스타일 */
+.members-table td,
+.researcher-table td,
+.student-table td{
+  border: 1px solid #e5e5e5;
+  padding: 10px 12px;
+  vertical-align: middle;
+  line-height: 1.5;
+}
+
+/* Staff 테이블: 1열(직급) 강조 */
+.members-table td:nth-child(1){
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* 링크 */
+.members-table a,
+.researcher-table a,
+.student-table a{
+  text-decoration: none;
+}
+
+/* 연구원/학생 표: 이름/기관은 줄바꿈 허용 */
+.researcher-table td:nth-child(2),
+.researcher-table td:nth-child(3),
+.student-table td:nth-child(2),
+.student-table td:nth-child(3){
+  white-space: normal;
+}
+
+/* 모바일 패딩만 살짝 */
+@media (max-width: 640px){
+  .members-table td,
+  .researcher-table td,
+  .student-table td{
+    padding: 10px 10px;
+  }
+}
+</style>
+
 <div class="section-bar">教官</div>
 
 <div class="table-wrap">
@@ -11,7 +78,7 @@
     <tbody>
       <tr>
         <td>教授</td>
-        <td>金 照榮（きむ へよん）</td>
+        <td>金 熙榮（きむ へよん）</td>
         <td><a href="https://trios.tsukuba.ac.jp/en/researcher/0000000798">Profile</a></td>
         <td><a href="mailto:heeykim@ims.tsukuba.ac.jp">E-mail</a></td>
         <td><a href="https://scholar.google.com/citations?user=MAB85ZYAAAAJ&hl=ja" target="_blank" rel="noopener">Google Scholar</a></td>
@@ -20,8 +87,8 @@
         <td>助教</td>
         <td>高 鍾斌（ご じょんびん）</td>
         <td><a href="https://trios.tsukuba.ac.jp/ja/researcher/0000005178">Profile</a></td>
-        <td><a href="mailto:go.jongbin.gn@u.tsukuba.ac.jp">E-mail</td>
-        <td><a href="https://scholar.google.com/citations?user=DJz0gHQAAAAJ&hl=ja" target="_blank" rel="noopener">Google Scholar</td>
+        <td><a href="mailto:go.jongbin.gn@u.tsukuba.ac.jp">E-mail</a></td>
+        <td><a href="https://scholar.google.com/citations?user=DJz0gHQAAAAJ&hl=ja" target="_blank" rel="noopener">Google Scholar</a></td>
       </tr>
     </tbody>
   </table>
@@ -64,7 +131,6 @@
   </ul>
 </div>
 
-{{< rawhtml >}}
 <script>
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -75,7 +141,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const allLis = document.querySelectorAll(`${groupSelector} ${listSelector} li`);
     if (!allLis.length) return;
 
-    // ✅ table-wrap로 감싸서 모바일에서도 안전하게 스크롤되게
     const wrap = document.createElement("div");
     wrap.className = "table-wrap";
 
@@ -98,19 +163,16 @@ document.addEventListener("DOMContentLoaded", () => {
     table.appendChild(tbody);
     wrap.appendChild(table);
 
-    // 첫 group 위치에 wrap+table 넣고, 기존 group 전부 삭제
     groups[0].parentNode.insertBefore(wrap, groups[0]);
     groups.forEach(g => g.remove());
   }
 
-  // 연구원 표 만들기
   listToTable({
     groupSelector: ".researcher-group",
     listSelector: ".researcher-list",
     tableClass: "researcher-table"
   });
 
-  // 학생 표 만들기
   listToTable({
     groupSelector: ".student-group",
     listSelector: ".student-list",
