@@ -24,7 +24,7 @@ sections:
         <div class="justify-text">
         {{< /rawhtml >}}
 
-        ### Research on the Deformation Mechanisms of Gum Metal
+        ### Research on Low Young’s Modulus Alloys for Biomedical Applications
 
         Pure Ti and other Ti alloys exhibit excellent biocompatibility and are therefore widely used as implant materials in the medical field. However, a major issue associated with metallic implant materials, such as artificial hip joints, is the significant difference in stiffness compared with natural bone. Implants embedded in the body are in direct contact with surrounding bone. When mechanical loads are applied during activities such as walking, stress is preferentially transferred to the material with the higher Young’s modulus—namely, the implant. This phenomenon is known as stress shielding. When stress shielding occurs, mechanical stress is not properly transmitted to the bone, leading to bone resorption and weakening. As a result, implants with a Young’s modulus significantly different from that of bone can cause bone density loss and an increased risk of fracture.
 
@@ -40,6 +40,6 @@ sections:
         </div>
         {{< /rawhtml >}}
 
-        {{< banner_title "Research on Biomedical Low Young’s Modulus Alloys" >}}
+        {{< banner_title "About Research" >}}
 
 ---

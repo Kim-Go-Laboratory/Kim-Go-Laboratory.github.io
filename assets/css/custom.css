@@ -765,9 +765,8 @@ left: max(16px, calc((100vw - var(--content-max)) / 2 + var(--content-pad) - 20p
 @media (max-width: 768px){
   body:not(.home) .banner-title-overlay{
     left: 16px !important;
-    font-size: clamp(26px, 7vw, 40px) !important;
-  top: calc(var(--nav-h) + var(--subpage-banner-h) / 2) !important;
-  }
+    font-size: clamp(18px, 5.5vw, 26px) !important;
+top: calc(var(--nav-h) + var(--subpage-banner-h) * 0.5) !important;  }
 }
 
 @keyframes bannerFadeIn{

@@ -13,9 +13,9 @@ sections:
       text: |-      
        ### Under constructrion
        <br>
-       <br><br><br><br><br><br><br<br><br><br><br><br><br><br><br>
+       <br><br><br><br><br><br><br<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-        {{< banner_title "Development of High-Performance Metallic Materials Using Machine Learning" >}}
+        {{< banner_title "About Research" >}}
 
       
 ---

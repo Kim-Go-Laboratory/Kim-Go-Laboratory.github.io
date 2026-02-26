@@ -11,11 +11,12 @@ sections:
     content:
       title: ""
       text: |-      
-       ### Under constructrion
-       <br>
-       <br><br><br><br><br><br><br<br><br><br><br><br><br><br><br>
 
-        {{< banner_title "機械学習による高性能金属材料の開発" >}}
+       ### Under construction
+       <br>
+       <br><br><br><br><br><br><br<br><br><br><br><br><br><br><br>><br><br><br><br><br><br><br><br>
+
+        {{< banner_title "About research" >}}
 
       
 ---
