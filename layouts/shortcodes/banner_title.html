@@ -1,0 +1,75 @@
+<span class="banner-title-source" data-title="{{ .Get 0 | htmlEscape }}"></span>
+
+<script>
+(function () {
+  function findHero() {
+    // 1) 테마/페이지-hero 후보들
+    const candidates = [
+      '.subpage-hero',
+      '.page-hero',
+      '.hb-page-hero',
+      'header[class*="hero"]',
+      'section[class*="hero"]',
+      'div[class*="hero"]'
+    ];
+
+    for (const sel of candidates) {
+      const el = document.querySelector(sel);
+      if (el) return el;
+    }
+
+    // 2) 그래도 없으면: "배너 이미지"가 들어간 가장 위 큰 영역을 잡는다
+    // (배경이미지/높이 큰 블록을 위에서부터 탐색)
+    const blocks = Array.from(document.querySelectorAll('body > *'));
+    let best = null;
+    let bestScore = 0;
+
+    for (const el of blocks) {
+      const r = el.getBoundingClientRect();
+      if (r.height < 120) continue;
+
+      const cs = getComputedStyle(el);
+      const hasBg = cs.backgroundImage && cs.backgroundImage !== 'none';
+
+      // 상단에 있고(탑이 0~200px), 높이 크고, 배경 있으면 점수↑
+      let score = 0;
+      if (r.top >= -50 && r.top < 220) score += 3;
+      score += Math.min(5, r.height / 200);
+      if (hasBg) score += 3;
+
+      if (score > bestScore) {
+        bestScore = score;
+        best = el;
+      }
+    }
+    return best;
+  }
+
+  function inject() {
+    // 이미 있으면 중복 방지
+    if (document.querySelector('.banner-title-overlay')) return;
+
+    const src = document.querySelector('.banner-title-source');
+    const title = src?.dataset?.title || '';
+    if (!title) return;
+
+    const hero = findHero();
+    if (!hero) return;
+
+    const el = document.createElement('div');
+    el.className = 'banner-title-overlay';
+    el.textContent = title;
+
+    // 배너에 오버레이가 보이도록 강제
+    hero.style.position = 'relative';
+    hero.style.overflow = 'visible';  // ✅ overflow 때문에 안 보이는 케이스 방지
+    hero.appendChild(el);
+  }
+
+  document.addEventListener('DOMContentLoaded', inject);
+  window.addEventListener('load', inject);
+  setTimeout(inject, 200);
+  setTimeout(inject, 800);
+  setTimeout(inject, 1500);
+})();
+</script>

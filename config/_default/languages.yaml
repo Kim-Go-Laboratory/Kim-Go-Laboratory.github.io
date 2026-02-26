@@ -1,0 +1,19 @@
+# Default language (Japanese)
+
+# English
+
+
+ja:
+  languageCode: ja
+  contentDir: content/ja
+  languageName: 日本語
+  weight: 2
+
+
+en:
+  languageCode: en-us
+  contentDir: content/
+  languageName: English
+  weight: 1
+
+  

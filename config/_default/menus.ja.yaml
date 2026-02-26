@@ -1,0 +1,57 @@
+main:
+  - name: ホーム
+    url: /ja/
+    weight: 10
+
+  - name: 形状記憶合金とは
+    identifier: history
+    url: /ja/history/   
+    weight: 11
+
+ # ▼▼ 여기부터 서브 메뉴 ▼▼
+  - name: Top
+    url: /ja/history/Top/
+    parent: history
+    weight: 1
+
+  - name: 動作原理
+    url: /ja/history/mechanism/
+    parent: history
+    weight: 2
+
+  - name: 動作例
+    url: /ja/history/examples/
+    parent: history
+    weight: 3
+
+  - name: メンバー
+    url: /ja/members/
+    weight: 12
+
+  - name: 研究
+    url: /ja/research/
+    weight: 13
+
+
+  - name: 研究設備
+    url: /ja/Equipment/    
+    weight: 14
+
+  - name: 成果
+    url: /ja/achievement/
+    weight: 15
+
+  - name: 活動
+    url: /ja/experience/
+    weight: 20
+
+  - name: 配属希望の方へ
+    url: /ja/howtojoin/
+    weight: 30
+
+  - name: アクセス
+    url: /ja/access/
+    weight: 40
+
+
+

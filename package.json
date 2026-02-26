@@ -1,0 +1,45 @@
+{
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/wowchemy/starter-hugo-academic/issues"
+  },
+  "comments": {
+    "dependencies": {
+      "@tailwindcss/cli": "project",
+      "@tailwindcss/typography": "project",
+      "pagefind": "project",
+      "preact": "project"
+    },
+    "devDependencies": {
+      "tailwindcss": "project"
+    }
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "@tailwindcss/typography": "^0.5.10",
+    "pagefind": "^1.4.0",
+    "preact": "^10.27.2"
+  },
+  "description": "Academic CV starter template for Hugo Blox with Tailwind CSS v4",
+  "devDependencies": {
+    "tailwindcss": "^4.1.18"
+  },
+  "homepage": "https://github.com/wowchemy/starter-hugo-academic#readme",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "hugo-blox-academic-cv-starter",
+  "packageManager": "pnpm@10.14.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wowchemy/starter-hugo-academic.git"
+  },
+  "scripts": {
+    "build": "hugo --minify && pnpm run pagefind",
+    "dev": "hugo server --disableFastRender",
+    "pagefind": "pagefind --site public"
+  },
+  "type": "commonjs",
+  "version": "1.0.0"
+}

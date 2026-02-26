@@ -1,0 +1,20 @@
+baseURL: "https://Kim-Go-Laboratory.github.io/"
+languageCode: "ko-kr"
+title: "Kim-Go-Laboratory"
+
+enableRobotsTXT: true
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+publishDir: "public"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  description: "Hugo + GitHub Pages"
+  author: "Kim-Go-Laboratory"

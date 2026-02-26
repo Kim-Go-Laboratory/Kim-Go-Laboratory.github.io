@@ -1,0 +1,16 @@
+<div class="news-table">
+  {{ range site.Data.news }}
+    <div class="news-row">
+      <div class="news-date">{{ .date }}</div>
+
+      <div class="news-body">
+        {{ if .url }}
+          <div class="news-head"><a href="{{ .url }}">{{ .title }}</a></div>
+        {{ else }}
+          <div class="news-head">{{ .title }}</div>
+        {{ end }}
+        {{ with .desc }}<div class="news-desc">{{ . }}</div>{{ end }}
+      </div>
+    </div>
+  {{ end }}
+</div>

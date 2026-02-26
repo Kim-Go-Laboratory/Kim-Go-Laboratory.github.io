@@ -1,0 +1,42 @@
+<div class="pub-list">
+  {{ $pubs := sort site.Data.publications_merged "year" "desc" }}
+  {{ $currentYear := "" }}
+
+  {{ range $pubs }}
+    {{ $y := printf "%v" .year }}
+
+    {{ if ne $y $currentYear }}
+      {{ $currentYear = $y }}
+      <h2 class="pub-year">{{ $currentYear }}</h2>
+    {{ end }}
+
+    <div class="pub-item">
+      <!-- Title -->
+      <div class="pub-title">
+        {{ .title }}
+      </div>
+
+      <!-- Authors -->
+{{ with .authors }}
+  <div class="pub-authors">
+    {{ if reflect.IsSlice . }}
+      {{ delimit . ", " }}
+    {{ else }}
+      {{ replaceRE `\s+and\s+` ", " . }}
+    {{ end }}
+  </div>
+{{ end }}
+
+      <!-- Journal line -->
+      <div class="pub-journal-line">
+        {{ with .journal }}
+          <strong>{{ . }}</strong>
+        {{ end }}
+        {{ with .volume }} {{ . }}{{ end }}
+        {{ with .year }} ({{ . }}){{ end }}
+        {{ with .pages }} {{ . }}{{ end }}.
+      </div>
+    </div>
+
+  {{ end }}
+</div>
