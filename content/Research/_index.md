@@ -30,7 +30,7 @@
         <div style="flex:1; min-width:0;">
           <h3>Development of Biomedical Shape Memory and Superelastic Alloys</h3>
           <p>
-            Shape memory alloys are widely used in the medical field, where their shape memory and superelastic properties are applied in medical devices such as guidewires, stents, and orthodontic archwires. Currently, the only shape memory alloy commercially used in medical applications is Ti-Ni alloy (Nitinol). However, since Ni accounts for approximately half of the alloy composition, concerns remain regarding its biological safety and long-term reliability. Our research focuses on developing Ni-free Ti-based alloys with improved biocompatibility and mechanical performance.
+Shape memory alloys are widely used in medical devices such as guidewires, stents, and orthodontic archwires due to their shape memory and superelastic properties. Currently, Ti-Ni alloy (Nitinol) is the only commercially used material; however, concerns about Ni’s biocompatibility and long-term safety remain. Our research aims to develop Ni-free Ti-based alloys with enhanced biocompatibility and mechanical performance.
           </p>
         </div>
 
@@ -49,8 +49,7 @@
 
         <div style="flex:1; min-width:0;">
           <h3>Research on Low Young’s Modulus Alloys for Biomedical Applications</h3>
-          <p>
-            Pure Ti and other Ti-based alloys exhibit excellent biocompatibility and are therefore widely used as implant materials in the medical field. However, a major issue with metallic implant materials, such as those used in artificial hip joints, is the significant difference in stiffness compared with natural bone. Implants embedded in the body may cause stress shielding due to this mismatch in Young’s modulus. Our research aims to develop low-modulus Ti-based alloys that reduce stress shielding while maintaining sufficient strength and durability.
+          <p> Pure Ti and other Ti-based alloys are widely used as implant materials due to their excellent biocompatibility. However, their higher stiffness compared with natural bone can cause stress shielding. Our research focuses on developing low-modulus Ti alloys that minimize stress shielding while maintaining adequate strength and durability.
           </p>
         </div>
 
