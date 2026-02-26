@@ -85,6 +85,43 @@
     word-break:keep-all;
   }
 }
+
+/* =========================
+   ✅ FIX: Mobile table overlap / vertical letters
+   ========================= */
+
+/* 1) Staff(5열) 테이블: 모바일에서는 줄이지 말고 스크롤로 넘기기 */
+.members-table{ table-layout: auto; } /* 일단 auto 유지 */
+
+/* 모바일에서 가로 스크롤이 생기도록 최소 폭 확보 */
+@media (max-width: 900px){
+  .members-table{ min-width: 760px; }
+  .researcher-table, .student-table{ min-width: 720px; }
+}
+
+/* 2) "글자 단위로 세로로 떨어지는" 현상 방지
+   (전역 overflow-wrap:anywhere 같은 걸 이 영역에서 무력화) */
+.members-table td,
+.researcher-table td,
+.student-table td{
+  word-break: normal;        /* 글자 단위 분해 금지 */
+  overflow-wrap: normal;     /* anywhere 무력화 */
+}
+
+/* 3) Researcher/Student 이름 칸은 단어 단위 줄바꿈만 허용 */
+.researcher-table td:nth-child(2),
+.student-table td:nth-child(2){
+  white-space: normal;
+  overflow-wrap: break-word; /* 너무 길면 단어 단위로만 끊기 */
+  word-break: normal;
+}
+
+/* 4) Staff 테이블에서 링크 칼럼은 짧게 유지(겹침 방지) */
+.members-table td:nth-child(3),
+.members-table td:nth-child(4),
+.members-table td:nth-child(5){
+  white-space: nowrap;       /* Profile / E-mail / Scholar는 한 덩어리로 */
+}
 </style>
 
 <div class="section-bar">教官</div>

@@ -6,65 +6,120 @@
 
 {{< rawhtml >}}
 <style>
+/* ✅ section-bar 색은 유지: margin/padding만 */
 .section-bar{
   margin: 18px 0 10px;
   padding: 8px 12px;
-  font-weight: 700;
 }
 
-/* ✅ 페이지 깨짐 방지 핵심: wrap이 스크롤을 담당 */
+/* ✅ Equipment 방식: 가로 스크롤 래퍼 */
 .table-wrap{
-  width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  margin-bottom: 18px;
+  width:100%;
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+  margin-bottom:18px;
 }
 
-/* ✅ 테이블은 100% + 내용이 길면 자연스럽게 넓어지게 */
+/* 공통 테이블 */
 .members-table,
 .researcher-table,
 .student-table{
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: auto;
-  white-space: nowrap;     /* 링크/짧은 컬럼 줄바꿈 방지 */
+  width:100%;
+  border-collapse:collapse;
+  table-layout:auto;
+  margin-bottom: 0; /* wrap이 margin-bottom을 가짐 */
 }
 
+/* 공통 셀 */
 .members-table td,
 .researcher-table td,
 .student-table td{
-  border: 1px solid #e5e5e5;
-  padding: 10px 12px;
-  vertical-align: middle;
-  line-height: 1.5;
+  border:1px solid #e5e5e5;
+  padding:10px 12px;
+  vertical-align:middle;
+  line-height:1.6;
 }
 
-/* ✅ 2~3열(이름/기관 등)은 줄바꿈 허용해서 너무 길면 내려가게 */
+/* Staff 테이블: 1열 강조 */
+.members-table td:nth-child(1){
+  font-weight:600;
+  white-space:nowrap;
+}
+
+/* 링크 */
+.members-table a,
+.researcher-table a,
+.student-table a{
+  text-decoration:none;
+}
+
+/* 연구원/학생: 이름/기관 줄바꿈 허용 */
 .researcher-table td:nth-child(2),
 .researcher-table td:nth-child(3),
 .student-table td:nth-child(2),
 .student-table td:nth-child(3){
-  white-space: normal;
+  white-space:normal;
 }
 
-/* Staff 테이블: 1열 직급 강조 */
-.members-table td:nth-child(1){
-  font-weight: 600;
-  background: #fafafa;
+/* ✅ Equipment 방식: 본문(긴 설명/소속) 문단 스타일 */
+.researcher-table td,
+.student-table td{
+  text-align:justify;
+  text-justify:inter-word;
+  hyphens:auto;
 }
 
-.members-table a,
-.researcher-table a,
-.student-table a{
-  text-decoration: none;
-}
-
+/* ✅ Mobile Optimization (Equipment 방식) */
 @media (max-width: 640px){
   .members-table td,
   .researcher-table td,
   .student-table td{
-    padding: 10px 10px;
+    padding:10px 10px;
   }
+
+  /* 모바일에서는 justify 해제 + 가독성 */
+  .researcher-table td,
+  .student-table td{
+    text-align:left;
+    hyphens:none;
+    word-break:keep-all;
+  }
+}
+
+/* =========================
+   ✅ FIX: Mobile table overlap / vertical letters
+   ========================= */
+
+/* 1) Staff(5열) 테이블: 모바일에서는 줄이지 말고 스크롤로 넘기기 */
+.members-table{ table-layout: auto; } /* 일단 auto 유지 */
+
+/* 모바일에서 가로 스크롤이 생기도록 최소 폭 확보 */
+@media (max-width: 900px){
+  .members-table{ min-width: 760px; }
+  .researcher-table, .student-table{ min-width: 720px; }
+}
+
+/* 2) "글자 단위로 세로로 떨어지는" 현상 방지 */
+.members-table td,
+.researcher-table td,
+.student-table td{
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+/* 3) Researcher/Student 이름 칸은 단어 단위 줄바꿈만 허용 */
+.researcher-table td:nth-child(2),
+.student-table td:nth-child(2){
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+/* 4) Staff 테이블에서 링크 칼럼은 짧게 유지(겹침 방지) */
+.members-table td:nth-child(3),
+.members-table td:nth-child(4),
+.members-table td:nth-child(5){
+  white-space: nowrap;
 }
 </style>
 
@@ -130,6 +185,7 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
+
   function listToTable({ groupSelector, listSelector, tableClass }) {
     const groups = document.querySelectorAll(groupSelector);
     if (!groups.length) return;
@@ -152,7 +208,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const col3 = (parts[2] || "").trim();
 
       const tr = document.createElement("tr");
-      tr.innerHTML = `<td>${col1}</td><td>${col2}</td><td>${col3}</td>`;
+      tr.innerHTML = `<td>${col1 || "—"}</td><td>${col2 || "—"}</td><td>${col3 || "—"}</td>`;
       tbody.appendChild(tr);
     });
 
@@ -174,6 +230,8 @@ document.addEventListener("DOMContentLoaded", () => {
     listSelector: ".student-list",
     tableClass: "student-table"
   });
+
 });
 </script>
+
 {{< /rawhtml >}}

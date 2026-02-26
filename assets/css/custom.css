@@ -712,7 +712,7 @@ body:not(.home) .page-content,
 body:not(.home) .content,
 body:not(.home) .hb-page,
 body:not(.home) .hb-page-body{
-  padding-top: calc(var(--subpage-banner-h) - 120px) !important;
+  padding-top: calc(var(--subpage-banner-h) - 100px) !important;
   margin-top: 0px !important;
   transform: none !important;
   top: auto !important;
@@ -760,7 +760,7 @@ body:not(.home) .banner-title-overlay{
   /* ✅ 고정 150px 대신: 화면에 맞춰 자동 */
 left: max(16px, calc((50vw - var(--content-max)) / 2 + var(--content-pad) - 20px)) !important;
   top: calc(var(--subpage-banner-h) * 1.3/2);
-  transform: translateY(-220%) !important;
+  transform: translateY(-200%) !important;
 
   z-index: 2 !important;
   pointer-events: none !important;
@@ -1182,9 +1182,170 @@ img, video, iframe{ max-width: 100%; height: auto; }
 }
 
 @media (max-width: 768px){
+  .navbar .nav-item .nav-link{
+    font-size: 14px !important;
+  }
+}
+
+
+/* =========================================
+   ✅ Mobile: Members table -> Card layout
+   (스크롤 없이 스샷 같은 형태로)
+   ========================================= */
+@media (max-width: 768px){
+
+  /* 🔹 로고 이미지 더 줄이기 */
+  .navbar .navbar-brand::before{
+    width: 140px !important;   /* ← 340 → 240 */
+    height: 40px !important;
+  }
+
+  /* 🔹 네비 전체 높이 줄이기 */
+  .navbar{
+    min-height: 50px !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+  }
+
+  /* 🔹 텍스트(금・高研研究室) 줄이기 */
+  .navbar-brand,
+  .navbar-brand span,
+  .navbar-brand a{
+    font-size: 0.9rem !important;
+    line-height: 1.1 !important;
+  }
+}
+
+/* =========================
+   Mobile: 전체 글자 크기 살짝 다운
+   ========================= */
+@media (max-width: 768px){
+  html{ font-size: 15px; } /* 기본 16px -> 15px (약 -6%) */
+}
+@media (max-width: 768px){
+
+  /* 섹션바(파란 바) */
+  .section-bar{
+    font-size: 20px !important;   /* 기존 26px -> 20px */
+    padding: 12px 14px !important;
+  }
+
+  /* 본문/테이블 */
+  article, .prose, .content{
+    font-size: 15px !important;
+    line-height: 1.65 !important;
+  }
+
+  /* 테이블 폰트 */
+  .equip-table,
+  .members-table,
+  .student-table,
+  .researcher-table,
+  .year-table{
+    font-size: 14px !important;
+  }
+
+  /* 테이블 셀 padding도 살짝 줄이면 덜 “덩어리” */
+  .equip-table td,
+  .members-table td,
+  .student-table td,
+  .researcher-table td,
+  .year-table td,
+  .year-table th{
+    padding: 8px 10px !important;
+  }
+}
+
+/* ===================================
+   Mobile: Research 카드 글자 줄이기
+   =================================== */
+@media (max-width: 768px){
+
+  .research-cards{
+    font-size: 15px !important;
+  }
+
+  .research-cards h3{
+    font-size: 20px !important;
+  }
+
+  .research-cards p{
+    font-size: 15px !important;
+  }
 
 }
-.navbar .nav-item .nav-link {
-  font-size: 20px !important;
+/* =========================
+   Mobile: 메뉴/푸터 글자 줄이기
+   ========================= */
+@media (max-width: 768px){
+
+  /* 햄버거 펼친 메뉴 */
+  .navbar-collapse .nav-link{
+    font-size: 15px !important;
+    line-height: 1.4 !important;
+  }
+
+  /* 모바일 메뉴 안 상단 연구실 정보 */
+  .navbar-collapse{
+    font-size: 14px !important;
+  }
+
+  /* Footer 메뉴 */
+  footer .lab-footer__menu a{
+    font-size: 15px !important;
+  }
+
+  /* Footer 연구실 이름 */
+  .lab-footer__lab{
+    font-size: 22px !important;
+  }
+
 }
 
+/* =================================
+   Mobile: Publications 폰트 정리
+   ================================= */
+@media (max-width: 768px){
+
+  .pub-year{
+    font-size: 1.2rem !important;
+    padding: 4px 14px !important;
+  }
+
+  .pub-title{
+    font-size: 1.05rem !important;
+    line-height: 1.4 !important;
+  }
+
+  .pub-authors,
+  .pub-venue{
+    font-size: 0.9rem !important;
+  }
+
+  .pub-item{
+    margin-bottom: 14px !important;
+    padding-bottom: 10px !important;
+  }
+
+}
+
+/* Desktop: 메뉴 항목(단어) 사이 간격 줄이기 */
+@media (min-width: 992px){
+
+  /* 1) Bootstrap 기본: 링크 padding이 간격을 만듦 */
+  .navbar-nav .nav-link{
+  }
+
+  /* 2) 혹시 flex gap 쓰는 테마면 gap도 줄이기 */
+  .navbar-nav{
+    gap: -10px !important;             /* 0~12px로 조절 */
+  }
+
+  /* 3) 메뉴 글자 간 '자간'도 살짝 줄이고 싶으면 */
+  .navbar-nav .nav-link{
+    letter-spacing: 0em !important;  /* 너무 줄이면 답답하니 -0.02em 이하 추천X */
+  }
+  .navbar-nav .nav-item{
+  margin-right: 20px !important;
+}
+}
