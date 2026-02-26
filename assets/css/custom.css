@@ -747,7 +747,7 @@ body:not(.home) .banner-title-overlay{
 
   /* ✅ 고정 150px 대신: 화면에 맞춰 자동 */
 left: max(16px, calc((100vw - var(--content-max)) / 2 + var(--content-pad) - 20px)) !important;
-  top: calc(var(--subpage-banner-h) * 2/2);
+  top: calc(var(--subpage-banner-h) * 2.0/2);
   transform: translateY(-200%) !important;
 
   z-index: 2 !important;
