@@ -6,67 +6,83 @@
 
 {{< rawhtml >}}
 <style>
-/* ✅ 테마의 section-bar(파란계통) 색을 건드리지 않기 위해
-   margin/padding만 최소로 조정 (background 지정 X) */
+/* ✅ section-bar 색은 유지: margin/padding만 */
 .section-bar{
   margin: 18px 0 10px;
   padding: 8px 12px;
 }
 
-/* 모바일에서 잘리지 않게: 숨기지 말고 스크롤 허용 */
+/* ✅ Equipment 방식: 가로 스크롤 래퍼 */
 .table-wrap{
-  width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  margin-bottom: 18px;
+  width:100%;
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+  margin-bottom:18px;
 }
 
 /* 공통 테이블 */
 .members-table,
 .researcher-table,
 .student-table{
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: auto;
+  width:100%;
+  border-collapse:collapse;
+  table-layout:auto;
+  margin-bottom: 0; /* wrap이 margin-bottom을 가짐 */
 }
 
-/* 셀 스타일 */
+/* 공통 셀 */
 .members-table td,
 .researcher-table td,
 .student-table td{
-  border: 1px solid #e5e5e5;
-  padding: 10px 12px;
-  vertical-align: middle;
-  line-height: 1.5;
+  border:1px solid #e5e5e5;
+  padding:10px 12px;
+  vertical-align:middle;
+  line-height:1.6;
 }
 
-/* Staff 테이블: 1열(직급) 강조 */
+/* Staff 테이블: 1열 강조 */
 .members-table td:nth-child(1){
-  font-weight: 600;
-  white-space: nowrap;
+  font-weight:600;
+  white-space:nowrap;
 }
 
 /* 링크 */
 .members-table a,
 .researcher-table a,
 .student-table a{
-  text-decoration: none;
+  text-decoration:none;
 }
 
-/* 연구원/학생 표: 이름/기관은 줄바꿈 허용 */
+/* 연구원/학생: 이름/기관 줄바꿈 허용 */
 .researcher-table td:nth-child(2),
 .researcher-table td:nth-child(3),
 .student-table td:nth-child(2),
 .student-table td:nth-child(3){
-  white-space: normal;
+  white-space:normal;
 }
 
-/* 모바일 패딩만 살짝 */
+/* ✅ Equipment 방식: 본문(긴 설명/소속) 문단 스타일 */
+.researcher-table td,
+.student-table td{
+  text-align:justify;
+  text-justify:inter-word;
+  hyphens:auto;
+}
+
+/* ✅ Mobile Optimization (Equipment 방식) */
 @media (max-width: 640px){
   .members-table td,
   .researcher-table td,
   .student-table td{
-    padding: 10px 10px;
+    padding:10px 10px;
+  }
+
+  /* 모바일에서는 justify 해제 + 가독성 */
+  .researcher-table td,
+  .student-table td{
+    text-align:left;
+    hyphens:none;
+    word-break:keep-all;
   }
 }
 </style>
@@ -156,7 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const col3 = (parts[2] || "").trim();
 
       const tr = document.createElement("tr");
-      tr.innerHTML = `<td>${col1}</td><td>${col2}</td><td>${col3}</td>`;
+      tr.innerHTML = `<td>${col1 || "—"}</td><td>${col2 || "—"}</td><td>${col3 || "—"}</td>`;
       tbody.appendChild(tr);
     });
 
