@@ -22,7 +22,6 @@ sections:
         {{< /rawhtml >}}
      
         {{< banner_title "Biomedical Shape Memory and Superelastic Alloys" >}}
-
         Shape memory alloys are widely used in the medical field, where their shape memory and superelastic properties are applied to medical devices such as guidewires, stents, and orthodontic archwires.
 
         Currently, the only shape memory alloy commercially used in medical applications is the Ti–Ni alloy (Nitinol). However, Ni, which accounts for approximately half of the alloy composition, has strong allergenic potential. Although very few problems related to Ni have been reported in clinical applications of Ti–Ni alloys, this is thought to be due to their ordered crystal structure and the strong bonding between Ti and Ni, which suppresses Ni ion release. Nevertheless, concerns regarding Ni allergy among patients cannot be completely eliminated. Therefore, to further accelerate the application of shape memory alloys in the medical field, the development of Ni-free β-type Ti-based shape memory and superelastic alloys is essential. Table 1 summarizes Ni-free β-type Ti-based shape memory alloys reported to date.

@@ -1,5 +1,10 @@
+{{ $news := site.Data.news }}
+{{ if eq .Site.Language.Lang "ja" }}
+  {{ $news = site.Data.ja.news }}
+{{ end }}
+
 <div class="news-table">
-  {{ range site.Data.news }}
+  {{ range $news }}
     <div class="news-row">
       <div class="news-date">{{ .date }}</div>
 
