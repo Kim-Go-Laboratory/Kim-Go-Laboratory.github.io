@@ -1355,10 +1355,3 @@ img, video, iframe{ max-width: 100%; height: auto; }
   }
 }
 
-video{
-  aspect-ratio: 16 / 9;
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
