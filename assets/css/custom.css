@@ -982,17 +982,8 @@ html, body{ overflow-x: hidden; }
 
 img, video, iframe{ max-width: 100%; height: auto; }
 
-.members-table, .student-table, .researcher-table{
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: auto; /* 데스크탑 안정 */
-}
 
 /* 모바일에서 표 깨짐 방지 */
-@media (max-width: 900px){
-  .members-table{ min-width: 760px !important; font-size: 14px !important; }
-  .student-table, .researcher-table{ min-width: 720px !important; font-size: 14px !important; }
-}
 
 /* 링크/이메일 세로로 깨지는거 방지 */
 .members-table td, .student-table td, .researcher-table td{
@@ -1056,12 +1047,16 @@ img, video, iframe{ max-width: 100%; height: auto; }
     margin-right: 0 !important;
   }
 
-  .page-members table{
-    display: block !important;
-    width: 100% !important;
-    overflow-x: auto !important;
-    -webkit-overflow-scrolling: touch;
-  }
+  .page-members .table-wrap{
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.page-members .members-table,
+.page-members .student-table,
+.page-members .researcher-table{
+  min-width: 720px; /* 필요시 */
+  table-layout: auto; /* 또는 fixed 중 하나만 선택 */
+}
 
   .page-members .members-table{
     table-layout: auto !important;

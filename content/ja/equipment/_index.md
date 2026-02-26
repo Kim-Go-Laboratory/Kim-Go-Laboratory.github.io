@@ -8,8 +8,7 @@
 
 <style>
 /* =========================
-   Equipment Table Style
-   (English version applied)
+   Equipment Table Style (JP)
    ========================= */
 
 /* Scroll wrapper (모바일에서 잘리지 않게) */
@@ -24,7 +23,7 @@
   width:100%;
   border-collapse:collapse;
   margin-bottom:28px;
-  table-layout:auto; /* 필요시 유지 */
+  table-layout:auto;
 }
 
 .equip-table td{
@@ -39,11 +38,13 @@
   text-align:center;
   font-weight:600;
   background:#fafafa;
+  white-space:nowrap;
 }
 
 .equip-name{
   width:260px;
   font-weight:600;
+  white-space:nowrap; /* 장비명 줄바꿈 과도 방지 */
 }
 
 .equip-note{
@@ -51,6 +52,7 @@
   text-justify:inter-word;
   hyphens:auto;
   line-height:1.6;
+  min-width:420px; /* 모바일에서 가독성 + 스크롤 유도 */
 }
 
 /* Section spacing */
@@ -68,13 +70,15 @@ h2{
   }
 
   .equip-name{
-    width:auto; /* 고정 260px 해제 */
+    width:auto;          /* 고정 260px 해제 */
+    white-space:normal;  /* 모바일에서는 장비명 줄바꿈 허용 */
   }
 
   .equip-note{
     text-align:left;  /* justify 해제 */
     hyphens:none;
     word-break:keep-all;
+    min-width:520px;  /* 모바일에서 표가 억지로 쪼그라들지 않게 */
   }
 
 }
@@ -131,11 +135,11 @@ document.addEventListener("DOMContentLoaded", function(){
       let cell = tr.querySelector("td");
       if(!cell) return;
 
-      let text = cell.textContent;
-
+      let text = cell.textContent || "";
       let parts = text.split("||");
-      let name = parts[0].trim();
-      let note = parts[1] ? parts[1].trim() : "";
+
+      let name = (parts[0] || "").trim();
+      let note = (parts[1] || "").trim();
 
       tr.innerHTML = "";
 
