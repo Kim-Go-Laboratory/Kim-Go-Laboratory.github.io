@@ -14,7 +14,7 @@ sections:
     id: home-hero
     content:
       title: "Shaping the Future Through Materials Innovation"
-      text: "KIM·GO Laboratory"
+      text: "KIM-GO Laboratory"
     design:
       spacing:
         padding: ["120px", "0", "220px", "0"]

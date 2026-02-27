@@ -14,7 +14,7 @@ sections:
     id: home-hero
     content:
       title: "現代・未来の産業技術を支える金属材料の開発"
-      text: "KIM·GO Laboratory"
+      text: "KIM-GO Laboratory"
     design:
       spacing:
         padding: ["120px", "0", "220px", "0"]
