@@ -1471,7 +1471,7 @@ img, video, iframe{ max-width: 100%; height: auto; }
 
   /* 텍스트 로고 */
   .navbar .navbar-brand::after{
-    width: 160px !important;
+    width: 140px !important;
     height: 50px !important;
     background-size: contain !important;
     transform: none !important;
