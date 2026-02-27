@@ -124,7 +124,7 @@
 }
 </style>
 
-<div class="section-bar">教官</div>
+<div class="section-bar">教員</div>
 
 <div class="table-wrap">
   <table class="members-table">
