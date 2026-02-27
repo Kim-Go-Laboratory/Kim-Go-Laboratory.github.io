@@ -1462,8 +1462,8 @@ img, video, iframe{ max-width: 100%; height: auto; }
 
   /* 왼쪽 심볼 로고 */
   .navbar .navbar-brand::before{
-    width: 110px !important;
-    height: 36px !important;
+    width: 90px !important;
+    height: 30px !important;
     background-size: contain !important;
     margin-right: 4px !important;
     flex-shrink: 0 !important;
@@ -1476,7 +1476,7 @@ img, video, iframe{ max-width: 100%; height: auto; }
     background-size: contain !important;
     transform: none !important;
     flex-shrink: 0 !important;
-        transform: translateY(5px) !important; /* 2~6px 사이로 조절 */
+        transform: translateY(4px) !important; /* 2~6px 사이로 조절 */
 
   }
 
