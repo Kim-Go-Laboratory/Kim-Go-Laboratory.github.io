@@ -3,7 +3,7 @@
 
 {{< banner_title "Access" >}}
 
-## Access
+### Access
 ---
 
 <p class="access-link">
@@ -14,7 +14,7 @@
 
 
 
-## Address
+### Address
 ---
 
 F435, Engineering Sciences Building 3F<br>
@@ -23,7 +23,7 @@ Third Area, University of Tsukuba <br>
 Japan
 
 
-## Google Map (3F Building at Universtiy of Tsukuba)
+### Google Map (3F Building at Universtiy of Tsukuba)
 ---
 <div style="width:100%; height:650px;">
   <iframe

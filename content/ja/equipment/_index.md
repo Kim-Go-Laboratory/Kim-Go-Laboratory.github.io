@@ -74,7 +74,7 @@ h2{
 }
 </style>
 
-<h2>試料作製関連</h2>
+<h3>試料作製関連</h3>
 <hr>
 
 <div class="table-scroll">
@@ -87,7 +87,7 @@ h2{
 </table>
 </div>
 
-<h2>特性評価関連</h2>
+<h3>特性評価関連</h3>
 <hr>
 
 <div class="table-scroll">
@@ -103,7 +103,7 @@ h2{
 </table>
 </div>
 
-<h2>共通設備</h2>
+<h3>共通設備</h3>
 <hr>
 
 <div class="table-scroll">

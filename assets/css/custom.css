@@ -170,8 +170,8 @@ main article figure,
 }
 
 #home-hero p{
-  font-size: 2.9rem !important;
-  font-weight: 450 !important;
+  font-size: 2.8rem !important;
+  font-weight: 400 !important;
   margin-top: 0.80em !important;
   color: #ffffff !important;
 }
@@ -786,7 +786,7 @@ top: calc(var(--nav-h) + var(--subpage-banner-h) * 0.5) !important;  }
   margin: 70px auto;
   padding: 0 16px;
 
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.7;
 }
 
@@ -798,7 +798,7 @@ top: calc(var(--nav-h) + var(--subpage-banner-h) * 0.5) !important;  }
 }
 
 .research-cards h3{
-  font-size: 28px;
+  font-size: 26x;
   font-weight: 550;
   line-height: 1.3;
 }

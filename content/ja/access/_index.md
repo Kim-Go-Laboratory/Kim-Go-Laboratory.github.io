@@ -3,7 +3,7 @@
 
 {{< banner_title "Access" >}}
 
-## アクセス
+### アクセス
 ---
 
 <p class="access-link">
@@ -14,7 +14,7 @@
 
 
 
-## 所在地
+### 所在地
 ---
 
 〒305-8577<br>
@@ -22,7 +22,7 @@
 第三エリア工学系学系　F棟435号室
 
 
-## Google Map (筑波大学3F棟)
+### Google Map (筑波大学3F棟)
 ---
 <div style="width:100%; height:650px;">
   <iframe

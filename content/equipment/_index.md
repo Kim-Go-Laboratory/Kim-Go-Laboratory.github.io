@@ -74,7 +74,7 @@ h2{
 }
 </style>
 
-<h2>Sample Preparation Equipment</h2>
+<h3>Sample Preparation Equipment</h3>
 <hr>
 
 <div class="table-scroll">
@@ -87,15 +87,15 @@ h2{
 </table>
 </div>
 
-<h2>Characterization and Property Evaluation Equipment</h2>
+<h3>Characterization and Property Evaluation Equipment</h3>
 <hr>
 
 <div class="table-scroll">
 <table class="equip-table">
-<tr><td>Tensile Testing Machine||Used for tensile testing of shape memory alloys to investigate deformation behavior and general mechanical properties.</td></tr>
-<tr><td>Fatigue Testing Machine||Evaluates the strength of metallic materials under cyclic loading.</td></tr>
+<tr><td>Tensile Testing Machine||Used for tensile testing of metallic materials to investigate deformation behavior and mechanical properties.</td></tr>
+<tr><td>Fatigue Testing Machine||Evaluates the fatigue properties of metallic materials under cyclic loading.</td></tr>
 <tr><td>Optical Microscope||Used for observing surface microstructures of samples. Observation is possible up to 1000× magnification. With the attached XYZ linear stage, precise dimensional measurements can also be performed.</td></tr>
-<tr><td>Scanning Electron Microscope (SEM-EBSD)||A microscope that observes images obtained from electrons reflected after irradiating the sample with an electron beam. Suitable for observing surface morphology and near-surface internal structures.</td></tr>
+<tr><td>Scanning Electron Microscope (SEM-EBSD)||A microscope that observes images obtained from electrons reflected after irradiating the sample with an electron beam. Suitable for observing surface morphology and for crystal orientation analysis.</td></tr>
 <tr><td>X-ray Diffractometer (XRD)||Used for phase identification and for examining lattice parameters and crystallographic orientation distributions. Measurements can be performed from low to high temperatures.</td></tr>
 <tr><td>Thermomechanical Analyzer (TMA)||Evaluates mechanical properties under varying temperature and load conditions. Shape memory properties can be analyzed from temperature–strain curves.</td></tr>
 <tr><td>Differential Scanning Calorimeter (DSC)||Measures phase transformation temperatures and associated heat in metals. Low- to mid-temperature DSC is used for martensitic transformation temperatures, while high-temperature DSC is used for melting points and order–disorder transformations.</td></tr>
@@ -103,7 +103,7 @@ h2{
 </table>
 </div>
 
-<h2>Shared Facilities</h2>
+<h3>Shared Facilities</h3>
 <hr>
 
 <div class="table-scroll">

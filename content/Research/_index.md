@@ -30,7 +30,7 @@
         <div style="flex:1; min-width:0;">
           <h3>Development of Biomedical Shape Memory and Superelastic Alloys</h3>
           <p>
-Shape memory alloys are widely used in medical devices such as guidewires, stents, and orthodontic archwires due to their shape memory and superelastic properties. Currently, Ti-Ni alloy (Nitinol) is the only commercially used material; however, concerns about Ni’s biocompatibility and long-term safety remain. Our research aims to develop Ni-free Ti-based alloys with enhanced biocompatibility and mechanical performance.
+Shape memory alloys are widely used in medical devices such as guidewires, stents, and orthodontic archwires due to their shape memory and superelastic properties. Currently, Ti-Ni alloy (Nitinol) is the only commercially used material; however, concerns about Ni’s biocompatibility and long-term safety remain. Our research aims to develop various alloys with enhanced biocompatibility and mechanical performance.
           </p>
         </div>
 
@@ -49,7 +49,7 @@ Shape memory alloys are widely used in medical devices such as guidewires, stent
 
         <div style="flex:1; min-width:0;">
           <h3>Research on Low Young’s Modulus Alloys for Biomedical Applications</h3>
-          <p> Pure Ti and other Ti-based alloys are widely used as implant materials due to their excellent biocompatibility. However, their higher stiffness compared with natural bone can cause stress shielding. Our research focuses on developing low-modulus Ti alloys that minimize stress shielding while maintaining adequate strength and durability.
+          <p> Pure Ti and other Ti-based alloys are widely used as implant materials due to their excellent biocompatibility. However, their higher stiffness compared with natural bone can cause stress shielding. Our research focuses on developing low-modulus alloys that minimize stress shielding while maintaining adequate strength and durability.
           </p>
         </div>
 
@@ -69,7 +69,7 @@ Shape memory alloys are widely used in medical devices such as guidewires, stent
         <div style="flex:1; min-width:0;">
           <h3>Development of High-Performance Metallic Materials Using Machine Learning</h3>
           <p>
-            We apply machine learning techniques to design high-performance alloys, including biomedical Ti-Zr-based alloys and high-entropy alloys. In particular, we focus on predicting and optimizing compositional regions that exhibit superelasticity and the shape memory effect. By integrating experimental data with first-principles calculations and thermodynamic simulations, we aim to accurately predict martensitic transformation behavior and elastic properties.
+            We apply machine learning to design high-performance biomedical and structural alloys, including Ti- and Zr-based alloys and high-entropy alloys. We focus on optimizing compositional regions for superelasticity and the shape memory effect, enabling next-generation shape memory alloys with enhanced martensitic transformation and elastic properties.
           </p>
         </div>
 

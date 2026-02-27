@@ -25,7 +25,7 @@ sections:
         {{< /rawhtml >}}
         ### What is a shape memory alloy?
 
-        When an external force is applied to a metal, deformation occurs. In ordinary metals, once plastic deformation takes place, the material remains permanently deformed. However, in shape memory alloys, heating causes the material to recover its original shape that was established through prior training treatment. This phenomenon is known as the shape memory effect. A shape memory alloy is a general term for alloys that exhibit this effect.
+        When an external force is applied to a metal, deformation occurs. In ordinary metals, once plastic deformation takes place, the material remains permanently deformed. However, in shape memory alloys, heating causes the material to recover its original shape that was manufactured through prior treatment. This phenomenon is known as the shape memory effect. A shape memory alloy is a general term for alloys that exhibit this effect.
 
         The development and practical application of shape memory alloys as engineering materials progressed rapidly beginning in the 1980s. In the latter half of that decade, more than 1,000 patents and utility model applications related to their applications were filed annually. These applications spanned a wide range of fields, including electrical engineering, mechanical engineering, transportation, chemistry, medicine, energy, and consumer products. Their presence across nearly all industrial sectors indicates the strong expectations for practical applications.
 
