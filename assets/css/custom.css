@@ -1389,3 +1389,99 @@ img, video, iframe{ max-width: 100%; height: auto; }
 .table-wrapper td {
   white-space: nowrap;
 }
+
+/* ✅ 기본: brand 정렬값 수정 (left center 같은 값은 align-items에 못 씀) */
+.navbar .navbar-brand{
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px;
+}
+
+/* =========================
+   Mobile logo fix
+   ========================= */
+@media (max-width: 768px){
+
+  /* 1) 텍스트 로고(사이트 타이틀)가 튀어나오는 문제 방지 */
+  .navbar .navbar-brand{
+    font-size: 0 !important;       /* 텍스트 안 보이게 */
+    line-height: 0 !important;
+    max-width: none !important;    /* 76vw 제한 풀기 */
+    overflow: visible !important;  /* 잘림 방지 */
+    white-space: nowrap !important;
+  }
+
+  /* (혹시 theme가 span/site-title을 쓰면 이것도 같이 숨김) */
+  .navbar .navbar-brand span,
+  .navbar .navbar-brand .site-title,
+  .navbar .navbar-brand .navbar-title{
+    display: none !important;
+  }
+
+  /* 2) 아이콘 로고 */
+  .navbar .navbar-brand::before{
+    content:"";
+    display:block;
+    width: 120px !important;
+    height: 40px !important;
+    background: url("/images/logou.png") no-repeat left center / contain !important;
+    margin-right: 6px !important;
+    flex: 0 0 auto;
+  }
+
+  /* 3) 텍스트 로고(언어별) */
+  .navbar .navbar-brand::after{
+    content:"";
+    display:block;
+    width: 200px !important;
+    height: 40px !important;
+    background: url("/images/logoen.png") no-repeat left center / contain !important;
+    transform: translateY(2px);
+    flex: 0 0 auto;
+  }
+
+  html[lang="ja"] .navbar .navbar-brand::after{
+    width: 200px !important; /* 일본어만 따로 조절 가능 */
+    background: url("/images/logoja.png") no-repeat left center / contain !important;
+    transform: translateY(3px);
+  }
+}
+
+
+@media (max-width: 768px){
+
+  /* 브랜드 영역 한 줄 고정 */
+  .navbar .navbar-brand{
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+    max-width: 65vw !important;   /* 햄버거 공간 남겨두기 */
+    overflow: hidden !important;
+    gap: 6px !important;
+  }
+
+  /* 왼쪽 심볼 로고 */
+  .navbar .navbar-brand::before{
+    width: 110px !important;
+    height: 36px !important;
+    background-size: contain !important;
+    margin-right: 4px !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* 텍스트 로고 */
+  .navbar .navbar-brand::after{
+    width: 160px !important;
+    height: 50px !important;
+    background-size: contain !important;
+    transform: none !important;
+    flex-shrink: 0 !important;
+        transform: translateY(5px) !important; /* 2~6px 사이로 조절 */
+
+  }
+
+  /* 일본어 */
+  html[lang="ja"] .navbar .navbar-brand::after{
+    width: 150px !important;
+  }
+}
