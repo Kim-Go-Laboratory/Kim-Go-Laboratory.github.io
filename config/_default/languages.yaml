@@ -1,19 +1,16 @@
-# Default language (Japanese)
+ 
+ 
+  en:
+    languageCode: en-us
+    contentDir: content
+    languageName: English
+    baseURL: "https://www.ims.tsukuba.ac.jp/~sma_lab/"
+    weight: 1
 
-# English
+  ja:
+    languageCode: ja
+    contentDir: content/ja/
+    languageName: 日本語
+    weight: 2
+    baseURL: "https://www.ims.tsukuba.ac.jp/~sma_lab/"
 
-
-ja:
-  languageCode: ja
-  contentDir: content/ja
-  languageName: 日本語
-  weight: 2
-
-
-en:
-  languageCode: en-us
-  contentDir: content/
-  languageName: English
-  weight: 1
-
-  

@@ -23,7 +23,7 @@
 <div class="research-cards">
 
   <!-- 1 -->
-  <a href="/research/alloydesign/" style="text-decoration:none; color:inherit;">
+  <a href="/~sma_lab/research/alloydesign/" style="text-decoration:none; color:inherit;">
     <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
       <div style="display:flex; gap:24px; align-items:flex-start; justify-content:space-between;">
 
@@ -34,7 +34,7 @@ Shape memory alloys are widely used in medical devices such as guidewires, stent
           </p>
         </div>
 
-        <img src="/images/stent.png"
+        <img src="/~sma_lab/images/stent.png"
              alt="Ti-based SMA research"
              style="width:260px; height:auto; border-radius:12px; display:block; flex-shrink:0;">
 
@@ -43,7 +43,7 @@ Shape memory alloys are widely used in medical devices such as guidewires, stent
   </a>
 
   <!-- 2 -->
-  <a href="/research/lowyoung/" style="text-decoration:none; color:inherit;">
+  <a href="/~sma_lab/research/lowyoung/" style="text-decoration:none; color:inherit;">
     <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
       <div style="display:flex; gap:24px; align-items:flex-start; justify-content:space-between;">
 
@@ -53,7 +53,7 @@ Shape memory alloys are widely used in medical devices such as guidewires, stent
           </p>
         </div>
 
-        <img src="/images/lowyoung.png"
+        <img src="/~sma_lab/images/lowyoung.png"
              alt="Low Young's modulus Ti alloys"
              style="width:260px; height:auto; border-radius:12px; display:block; flex-shrink:0;">
 
@@ -62,7 +62,7 @@ Shape memory alloys are widely used in medical devices such as guidewires, stent
   </a>
 
   <!-- 3 -->
-  <a href="/research/machine/" style="text-decoration:none; color:inherit;">
+  <a href="/~sma_lab/research/machine/" style="text-decoration:none; color:inherit;">
     <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
       <div style="display:flex; gap:24px; align-items:flex-start; justify-content:space-between;">
 
@@ -73,7 +73,7 @@ Shape memory alloys are widely used in medical devices such as guidewires, stent
           </p>
         </div>
 
-        <img src="/images/AI.png"
+        <img src="/~sma_lab/images/AI.png"
              alt="Machine learning for materials"
              style="width:260px; height:auto; border-radius:12px; display:block; flex-shrink:0;">
 

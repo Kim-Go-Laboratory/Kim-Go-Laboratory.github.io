@@ -69,32 +69,32 @@ sections:
           <div class="examples-list">
 
             <div class="examples-item">
-              <img src="/images/sma1.png">
+              <img src="/~sma_lab/images/sma1.png">
               <div class="examples-caption">(1) A spring-shaped shape memory alloy after shape-setting (training) treatment</div>
             </div>
 
             <div class="examples-item">
-              <img src="/images/sma2.png">
+              <img src="/~sma_lab/images/sma2.png">
               <div class="examples-caption">(2) At room temperature (below the martensitic transformation temperature), applying a load changes the shape.</div>
             </div>
 
             <div class="examples-item">
-              <img src="/images/sma3.png">
+              <img src="/~sma_lab/images/sma3.png">
               <div class="examples-caption">(3) Shape after sufficient deformation, with the load removed</div>
             </div>
 
             <div class="examples-item">
-              <img src="/images/sma4.png">
+              <img src="/~sma_lab/images/sma4.png">
               <div class="examples-caption">(4) When heated above the reverse transformation temperature, it begins to return to the memorized shape. (1/3 recovery)</div>
             </div>
 
             <div class="examples-item">
-              <img src="/images/sma5.png">
+              <img src="/~sma_lab/images/sma5.png">
               <div class="examples-caption">(5) Continue heating. (2/3 recovery)</div>
             </div>
 
             <div class="examples-item">
-              <img src="/images/sma6.png">
+              <img src="/~sma_lab/images/sma6.png">
               <div class="examples-caption">(6) Continue heating. (Full recovery to the original shape)</div>
             </div>
 
@@ -108,12 +108,12 @@ sections:
           <div class="examples-list">
 
             <div class="examples-item">
-              <img src="/images/sp1.png">
+              <img src="/~sma_lab/images/sp1.png">
               <div class="examples-caption">(1) Even immediately after heating (above the reverse transformation temperature), applying a load causes deformation due to stress-induced martensitic transformation.</div>
             </div>
 
             <div class="examples-item">
-              <img src="/images/sp2.png">
+              <img src="/~sma_lab/images/sp2.png">
               <div class="examples-caption">(2) Because the temperature is above the reverse transformation temperature, simply unloading triggers reverse transformation back to the parent phase, and the shape returns to the original.</div>
             </div>
 

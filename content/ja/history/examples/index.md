@@ -69,32 +69,32 @@ sections:
           <div class="examples-list">
 
             <div class="examples-item">
-              <img src="/images/sma1.png">
+              <img src="/~sma_lab/images/sma1.png">
               <div class="examples-caption">(1) 記憶処理された形状のバネ状形状記憶合金</div>
             </div>
 
             <div class="examples-item">
-              <img src="/images/sma2.png">
+              <img src="/~sma_lab/images/sma2.png">
               <div class="examples-caption">(2) 室温(マルテンサイト変態温度以下)で負荷を加えると形状が変化する。</div>
             </div>
 
             <div class="examples-item">
-              <img src="/images/sma3.png">
+              <img src="/~sma_lab/images/sma3.png">
               <div class="examples-caption">(3) 十分に変形した後、力を除いた状態の形状</div>
             </div>
 
             <div class="examples-item">
-              <img src="/images/sma4.png">
+              <img src="/~sma_lab/images/sma4.png">
               <div class="examples-caption">(4) 逆変態温度以上に加熱すると、元の記憶した形状に戻っていく。(1/3の形状回復)</div>
             </div>
 
             <div class="examples-item">
-              <img src="/images/sma5.png">
+              <img src="/~sma_lab/images/sma5.png">
               <div class="examples-caption">(5) 加熱を続ける。(2/3の形状回復)</div>
             </div>
 
             <div class="examples-item">
-              <img src="/images/sma6.png">
+              <img src="/~sma_lab/images/sma6.png">
               <div class="examples-caption">(6) 加熱を続ける。(完全に元の形状に回復)</div>
             </div>
 
@@ -108,12 +108,12 @@ sections:
           <div class="examples-list">
 
             <div class="examples-item">
-              <img src="/images/sp1.png">
+              <img src="/~sma_lab/images/sp1.png">
               <div class="examples-caption">(1) 加熱直後(逆変態温度以上)でも荷重を加えるとマルテンサイト変態誘起により変形する。</div>
             </div>
 
             <div class="examples-item">
-              <img src="/images/sp2.png">
+              <img src="/~sma_lab/images/sp2.png">
               <div class="examples-caption">(2) 逆変態温度以上なので、除荷するだけで元の構造に逆変態し、形状は元に戻る。</div>
             </div>
 

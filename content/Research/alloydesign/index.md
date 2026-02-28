@@ -54,14 +54,14 @@ sections:
 
         <div style="display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap; margin: 16px 0;">
           <figure style="flex:1; min-width:280px; margin:0;">
-            <img src="/images/Fig1.png" alt="Figure 1" style="width:100%; height:auto; border-radius:6px;">
+            <img src="/~sma_lab/images/Fig1.png" alt="Figure 1" style="width:100%; height:auto; border-radius:6px;">
             <figcaption style="font-size:1.0em; opacity:1.0; margin-top:6px; text-align:center; color:inherit;">
               Figure 1. Effects of Various Alloying Elements
             </figcaption>
           </figure>
 
           <figure style="flex:1; min-width:280px; margin:0;">
-            <img src="/images/Fig2.png" alt="Figure 2" style="width:93.4%; height:auto; border-radius:6px;">
+            <img src="/~sma_lab/images/Fig2.png" alt="Figure 2" style="width:93.4%; height:auto; border-radius:6px;">
             <figcaption style="font-size:1.0em; opacity:1.0; margin-top:6px; text-align:center; color:inherit;">
               Figure 2. Stress–Strain Curve of a Developed Biomedical Ti-Based Superelastic Alloy
             </figcaption>

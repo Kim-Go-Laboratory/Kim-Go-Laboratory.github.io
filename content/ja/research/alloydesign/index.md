@@ -44,9 +44,9 @@ sections:
         ・ 開発した合金系の一例
         Ti-Nb-(Ta, Zr)合金、Ti-Zr-Nb-(Ta, Sn)合金、Ti-Nb-(O, N, C)合金、Ti-Nb-Zr-Ta-(O, N)合金
 
-        <div style="display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap; margin: 16px 0;">  <figure style="flex:1; min-width:280px; margin:0;">    <img src="/images/Fig1.png" alt="図1" style="width:100%; height:auto; border-radius:6px; ">    <figcaption style="font-size:1.0em; opacity:1.0; margin-top:6px; text-align:center; color:inherit;">図1　様々な添加元素の効果</figcaption>  </figure>
+        <div style="display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap; margin: 16px 0;">  <figure style="flex:1; min-width:280px; margin:0;">    <img src="/~sma_lab/images/Fig1.png" alt="図1" style="width:100%; height:auto; border-radius:6px; ">    <figcaption style="font-size:1.0em; opacity:1.0; margin-top:6px; text-align:center; color:inherit;">図1　様々な添加元素の効果</figcaption>  </figure>
         
-        <figure style="flex:1; min-width:280px; margin:0;">    <img src="/images/Fig2.png" alt="図2" style="width:93.4%; height:auto; border-radius:6px;">    <figcaption style="font-size:1.0em;  opacity:1.0; margin-top:6px; text-align:center;color:inherit;">図2　開発した生体用Ti基超弾性合金の応力-歪み曲線</figcaption>  </figure></div>
+        <figure style="flex:1; min-width:280px; margin:0;">    <img src="/~sma_lab/images/Fig2.png" alt="図2" style="width:93.4%; height:auto; border-radius:6px;">    <figcaption style="font-size:1.0em;  opacity:1.0; margin-top:6px; text-align:center;color:inherit;">図2　開発した生体用Ti基超弾性合金の応力-歪み曲線</figcaption>  </figure></div>
 
         　現在は、より良い特性や実用化を目指した合金設計、開発、評価に加え、マルテンサイト変態に関する結晶学的な解析や、マルテンサイト変態を利用したβ型Ti合金の低ヤング率化などについても研究を行っています。
 

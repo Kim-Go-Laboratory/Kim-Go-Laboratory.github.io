@@ -13,7 +13,7 @@
 <div class="research-cards">
 
   <!-- 1 -->
-<a href="/ja/research/alloydesign/" style="text-decoration:none; color:inherit;">    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
+<a href="/~sma_lab/ja/research/alloydesign/" style="text-decoration:none; color:inherit;">    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
       <div style="display:flex; gap:24px; align-items:flex-start; justify-content:space-between;">
 
         <!-- 텍스트 -->
@@ -25,7 +25,7 @@
         </div>
 
         <!-- ✅ 이미지 크게 -->
-        <img src="/images/stent.png"
+        <img src="/~sma_lab/images/stent.png"
              alt="Ti-based SMA research"
              style="width:260px; height:auto; border-radius:12px; display:block; flex-shrink:0;">
 
@@ -34,7 +34,7 @@
   </a>
 
   <!-- 2 -->
-<a href="/ja/research/lowyoung/" style="text-decoration:none; color:inherit;">    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
+<a href="/~sma_lab/ja/research/lowyoung/" style="text-decoration:none; color:inherit;">    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
       <div style="display:flex; gap:24px; align-items:flex-start; justify-content:space-between;">
 
         <div style="flex:1; min-width:0;">
@@ -44,7 +44,7 @@
           </p>
         </div>
 
-        <img src="/images/lowyoung.png"
+        <img src="/~sma_lab/images/lowyoung.png"
              alt="Low Young's modulus Ti alloys"
              style="width:260px; height:auto; border-radius:12px; display:block; flex-shrink:0;">
 
@@ -53,7 +53,7 @@
   </a>
 
   <!-- 3 -->
-<a href="/ja/research/machine/" style="text-decoration:none; color:inherit;">    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
+<a href="/~sma_lab/ja/research/machine/" style="text-decoration:none; color:inherit;">    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
       <div style="display:flex; gap:24px; align-items:flex-start; justify-content:space-between;">
 
         <div style="flex:1; min-width:0;">
@@ -63,7 +63,7 @@
           </p>
         </div>
 
-        <img src="/images/AI.png"
+        <img src="/~sma_lab/images/AI.png"
              alt="Machine learning for materials"
              style="width:260px; height:auto; border-radius:12px; display:block; flex-shrink:0;">
 

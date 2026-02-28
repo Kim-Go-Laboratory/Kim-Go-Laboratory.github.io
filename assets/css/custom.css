@@ -208,10 +208,10 @@ main article figure,
 }
 
 /* ✅ 원본에서 “마지막에 적용되던” 이미지 세트(111~444)만 유지 */
-#home-hero .hero-slide.s1{ background-image: url("/images/111.png"); animation-name: slide1; }
-#home-hero .hero-slide.s2{ background-image: url("/images/222.png"); animation-name: slide2; }
-#home-hero .hero-slide.s3{ background-image: url("/images/3333.png"); animation-name: slide3; }
-#home-hero .hero-slide.s4{ background-image: url("/images/444.png"); animation-name: slide4; }
+#home-hero .hero-slide.s1{ background-image: url("/~sma_lab/images/111.png"); animation-name: slide1; }
+#home-hero .hero-slide.s2{ background-image: url("/~sma_lab/images/222.png"); animation-name: slide2; }
+#home-hero .hero-slide.s3{ background-image: url("/~sma_lab/images/3333.png"); animation-name: slide3; }
+#home-hero .hero-slide.s4{ background-image: url("/~sma_lab/images/444.png"); animation-name: slide4; }
 
 @keyframes slide1{
   0%   { opacity: 0; }
@@ -372,7 +372,7 @@ td{
 .members-table td:nth-child(1){
   width: 25% !important;
   text-align:center;
-  font-weight:700;
+  font-weight:500;
   white-space:nowrap;
   background:#f0f3f7;
 }
@@ -679,7 +679,7 @@ body:not(.home)::before{
   top: 0;
   width: 100%;
   height: var(--subpage-banner-h);
-  background-image: url("/images/8.png");
+  background-image: url("/~sma_lab/images/8.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -873,7 +873,7 @@ top: calc(var(--nav-h) + var(--subpage-banner-h) * 0.5) !important;  }
   display: inline-block;
   width: 200px;
   height: 60px;
-  background: url("/images/logou.png") no-repeat top / contain;
+  background: url("/~sma_lab/images/logou.png") no-repeat top / contain;
   margin-right: 10px;
 }
 
@@ -882,7 +882,7 @@ top: calc(var(--nav-h) + var(--subpage-banner-h) * 0.5) !important;  }
   display: inline-block;
   width: 400px;
   height: 73px;
-  background: url("/images/logoen.png") no-repeat left bottom / contain;
+  background: url("/~sma_lab/images/logoen.png") no-repeat left bottom / contain;
   opacity: 0.95;
 }
 
@@ -890,7 +890,7 @@ html[lang="ja"] .navbar .navbar-brand::after {
   transform: translateY(5px);
   width: 300px;
   height: 73px;
-  background: url("/images/logoja.png") no-repeat left bottom / contain;
+  background: url("/~sma_lab/images/logoja.png") no-repeat left bottom / contain;
   opacity: 0.95;
 
 }
@@ -1424,7 +1424,7 @@ img, video, iframe{ max-width: 100%; height: auto; }
     display:block;
     width: 120px !important;
     height: 40px !important;
-    background: url("/images/logou.png") no-repeat left center / contain !important;
+    background: url("/~sma_lab/images/logou.png") no-repeat left center / contain !important;
     margin-right: 6px !important;
     flex: 0 0 auto;
   }
@@ -1435,14 +1435,14 @@ img, video, iframe{ max-width: 100%; height: auto; }
     display:block;
     width: 200px !important;
     height: 40px !important;
-    background: url("/images/logoen.png") no-repeat left center / contain !important;
+    background: url("/~sma_lab/images/logoen.png") no-repeat left center / contain !important;
     transform: translateY(2px);
     flex: 0 0 auto;
   }
 
   html[lang="ja"] .navbar .navbar-brand::after{
     width: 200px !important; /* 일본어만 따로 조절 가능 */
-    background: url("/images/logoja.png") no-repeat left center / contain !important;
+    background: url("/~sma_lab/images/logoja.png") no-repeat left center / contain !important;
     transform: translateY(3px);
   }
 }
@@ -1485,3 +1485,5 @@ img, video, iframe{ max-width: 100%; height: auto; }
     width: 150px !important;
   }
 }
+
+

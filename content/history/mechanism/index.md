@@ -36,7 +36,7 @@ sections:
         ### Shape Memory Mechanism
 
         <figure style="float:right; width:45%; margin: 0 0 1em 2em; text-align:center;">
-          <img src="/images/sma.png" style="width:100%;" />
+          <img src="/~sma_lab/images/sma.png" style="width:100%;" />
           <figcaption style="font-size:1.0em; margin-top:0.5em;color:inherit;">
             Figure 1. Mechanisms of the shape memory effect and superelasticity
           </figcaption>

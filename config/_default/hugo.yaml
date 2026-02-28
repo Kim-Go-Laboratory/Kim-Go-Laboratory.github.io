@@ -6,16 +6,12 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: ''
 # Website URL
-baseURL: 'https://kim-go-laboratory.github.io/'
+baseURL: "https://www.ims.tsukuba.ac.jp/~sma_lab/"
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
 
 ############################
 ## LANGUAGE
-############################
-
-defaultContentLanguage: en
-hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
-removePathAccents: true
 
 ############################
 ## PAGE OPTIONS
@@ -57,6 +53,7 @@ taxonomies:
   publication_type: publication_types
 markup:
   _merge: deep
+  
   highlight:
     lineNos: false
 security:
