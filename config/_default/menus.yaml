@@ -1,14 +1,9 @@
-# Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-  #     desired widget in your `content/home/` folder.
-  #   The weight parameter defines the order that the links will appear in.
-
 main:
-  - name: Home
+  - name: ホーム
     url: /
     weight: 10
 
-  - name: Shape Memory Alloy
+  - name: 形状記憶合金とは
     identifier: history
     url: /history/   
     weight: 11
@@ -19,45 +14,42 @@ main:
     parent: history
     weight: 1
 
-  - name: Mechanism
+  - name: 動作原理
     url: /history/mechanism/
     parent: history
     weight: 2
 
-  - name: Examples
+  - name: 動作例
     url: /history/examples/
     parent: history
     weight: 3
 
-  - name: Members
+  - name: メンバー
     url: /members/
     weight: 12
 
-  - name: Research
+  - name: 研究
     url: /research/
     weight: 13
 
 
-  - name: Facility
-    url: /Equipment/    
+  - name: 研究設備
+    url: /equipment/    
     weight: 14
 
-  - name: Publications
+  - name: 成果
     url: /achievement/
     weight: 15
 
-  - name: Gallery
+  - name: 活動
     url: /experience/
     weight: 20
 
-  - name: Join Us
+  - name: 配属希望の方へ
     url: /howtojoin/
     weight: 30
 
-  - name: Access
+  - name: アクセス
     url: /access/
     weight: 40
 
-
-
-  

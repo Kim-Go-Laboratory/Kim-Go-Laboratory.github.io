@@ -2,100 +2,77 @@
 
 ---
 
-{{< banner_title "Join Us" >}}
+{{< banner_title "Join us" >}}
 
-{{< rawhtml >}}
-<style>
-/* Join Us page: justify text */
-.joinus p{
-  margin: 0 0 14px 0;
-  line-height: 1.7;
-  text-align: justify;
-  text-justify: inter-word;
-  hyphens: auto;
-}
-.joinus h2{
-  margin-top: 18px;
-}
-.joinus .bullets{
-  margin: 8px 0 0 0;
-}
-.joinus .bullets div{
-  margin: 2px 0;   /* 간격 줄이기 */
-}
-</style>
 
-<div class="joinus">
 
-  <h3>About the Laboratory</h3>
-  <hr>
-  <p>
-    In our laboratory, we conduct research on the development and characterization of superelastic alloys, shape memory alloys, and Gum Metal. To develop new materials and improve their properties, students study the fundamentals of metallurgical engineering and carry out research using nanoscale microstructure control and atomic-level characterization techniques. The knowledge and experience acquired in our laboratory help students develop the skills necessary to succeed in careers involving metals and other advanced materials after graduation.
-  </p>
+### 研究室について
+---
 
-  <h3>For Undergraduate Students</h3>
-  <hr>
-  <p>
-    To join the Kim–Go Laboratory in the fourth year of undergraduate study, students must select our laboratory during the laboratory assignment process held around December of their third year in the College of Engineering Sciences, Department of Applied Sciences, at the University of Tsukuba.
-  </p>
 
-  <h3>Graduate School Admissions</h3>
-  <hr>
-  <p>
-    For detailed information regarding entrance examinations and past exam questions, please refer to the website of the Department of Materials Science and Engineering.
-  </p>
+　私たちの研究室では、超弾性合金や形状記憶合金、ゴムメタルの開発と特性評価を行っています。材料開発や特性改善のために、金属工学の基礎を学び、ナノ組織制御と原子レベルの観察技術を用いて研究を進めています。ここで習得した知識と経験は、卒業後、金属や他の材料分野で活躍するための能力開発につながっています。
 
-  <h3>Research Process</h3>
-  <hr>
-  <p>
-    After joining the laboratory, students discuss potential research topics with faculty members and determine their research theme. Once the topic is decided, students learn experimental and analytical methods from senior students and proceed with their research. Research progress and results are presented at weekly seminars. When sufficient results are achieved, students have the opportunity to present their work at academic conferences.
-  </p>
+### 学部生の皆さん
+--- 
+　大学4年生時に金・高研究室へ配属されるためには、筑波大学理工学群応用理工学類の3年生12月頃に行われる研究室配属希望で金・高研を選択する必要があります。
 
-  <h3>Recent Employment Destinations</h3>
-  <hr>
-  <p>Recent graduates have joined the following institutions and companies:</p>
+### 大学院入試について
+---
+　入試の詳細および過去問題については，物質・材料工学専攻のホームページをご確認ください。
 
-  <div class="bullets">
-    <div>• National Institute for Materials Science (NIMS)</div>
-    <div>• National Institute of Advanced Industrial Science and Technology (AIST)</div>
-    <div>• Tokyo Institute of Technology</div>
-    <div>• Oita University</div>
-    <div>• Aichi University of Education</div>
-    <div>• JAXA Institute of Space and Astronautical Science</div>
-    <div>• The University of Kitakyushu</div>
-    <div>• Ruhr University Bochum (Germany)</div>
-    <div>• Toyota Motor Corporation</div>
-    <div>• Nissan Motor Co., Ltd.</div>
-    <div>• Honda Motor Co., Ltd.</div>
-    <div>• Mazda Motor Corporation</div>
-    <div>• Panasonic Corporation</div>
-    <div>• Hitachi, Ltd.</div>
-    <div>• Toshiba Corporation</div>
-    <div>• Fujitsu Limited</div>
-    <div>• Terumo Corporation</div>
-    <div>• Mitsubishi Heavy Industries, Ltd.</div>
-    <div>• Furukawa Electric Co., Ltd.</div>
-    <div>• ExxonMobil Corporation</div>
-    <div>• Nippon Steel Corporation</div>
-    <div>• JFE Steel Corporation</div>
-    <div>• Kobe Steel, Ltd.</div>
-    <div>• Bridgestone Corporation</div>
-    <div>• Osaka Titanium Technologies Co., Ltd.</div>
-    <div>• Furukawa Sky Co., Ltd.</div>
-    <div>• Noritake Co., Limited</div>
-    <div>• Hitachi Metals, Ltd.</div>
-    <div>• Sumitomo Chemical Co., Ltd.</div>
-    <div>• NGK Insulators, Ltd.</div>
-    <div>• Asahi Kasei Corporation</div>
-    <div>• JX Nippon Mining & Metals Corporation</div>
-    <div>• Sumitomo Electric Industries, Ltd.</div>
-    <div>• and others</div>
-  </div>
 
-  <hr>
-  <div class="contact-box">
-    For inquiries, comments, laboratory visits, or if you would like to gain a better understanding of our research or speak with laboratory members, please contact Prof. Kim (<b>heeykim@ims.tsukuba.ac.jp</b>).
-  </div>
+### 研究の進め方
+---
+
+　配属後、先生方と話し合いをして研究テーマを決めます。テーマが決まったら、先輩に実験や解析の方法を教わり、研究を進めていきます。そして研究の進展具合や成果をゼミで報告する、という流れになります。ゼミは週一回行っています。また、一定の成果が得られれば、学会で発表することができます。
+
+
+
+
+
+
+### 最近の就職先
+---
+• 物質・材料研究機構  
+• 産業技術総合研究所  
+• 東京工業大学  
+• 大分大学  
+• 愛知教育大学  
+• JAXA宇宙科学研究所  
+• 北九州市立大学  
+• Ruhr大学（ドイツ）  
+• トヨタ自動車  
+• 日産自動車  
+• 本田技研工業  
+• マツダ  
+• パナソニック  
+• 日立製作所  
+• 東芝  
+• 富士通  
+• テルモ  
+• 三菱重工業  
+• 古河電気工業  
+• エクソンモービル  
+• 新日鐵住金  
+• JFEスチール  
+• 神戸製鋼所  
+• ブリヂストン  
+• 大阪チタニウムテクノロジーズ（旧住友チタニウム）  
+• 古河スカイ  
+• ノリタケ  
+• 日立金属  
+• 日本製鉄  
+• 住友化学  
+• 日本ガイシ  
+• 旭化成  
+• JX金属  
+• 住友電工  
+• その他
+
+##
+---
+<div class="contact-box">
+
+※ご質問・ご意見のほか、研究室を見学したい、研究のイメージを掴んでおきたい、メンバーの話を聞きたい、等のご希望がございましたら<b>heeykim @ims.tsukuba.ac.jp (金教授)</b> にご連絡下さい。(メール送信の際、@の前の空白を削除して下さい。)
 
 </div>
-{{< /rawhtml >}}

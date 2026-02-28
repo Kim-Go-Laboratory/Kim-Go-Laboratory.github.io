@@ -2,10 +2,11 @@
 
 ---
 
-{{< banner_title "About Research" >}}
+{{< banner_title "About research" >}}
+
+
 
 {{< rawhtml >}}
-
 <style>
 .research-cards p{
   margin:0;
@@ -20,20 +21,22 @@
 }
 </style>
 
+<!-- ✅ 가운데 정렬: margin:auto -->
 <div class="research-cards">
 
   <!-- 1 -->
-  <a href="/~sma_lab/research/alloydesign/" style="text-decoration:none; color:inherit;">
-    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
+<a href="/~sma_lab/research/alloydesign/" style="text-decoration:none; color:inherit;">    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
       <div style="display:flex; gap:24px; align-items:flex-start; justify-content:space-between;">
 
+        <!-- 텍스트 -->
         <div style="flex:1; min-width:0;">
-          <h3>Development of Biomedical Shape Memory and Superelastic Alloys</h3>
-          <p>
-Shape memory alloys are widely used in medical devices such as guidewires, stents, and orthodontic archwires due to their shape memory and superelastic properties. Currently, Ti-Ni alloy (Nitinol) is the only commercially used material; however, concerns about Ni’s biocompatibility and long-term safety remain. Our research aims to develop various alloys with enhanced biocompatibility and mechanical performance.
+          <h3 style="margin:0 0 10px 0;">生体用Ti基形状記憶・超弾性合金の研究・開発</h3>
+          <p style="margin:0; line-height:1.6;">
+            　形状記憶合金は医療分野でも使用されており、ガイドワイヤ、ステント、歯列矯正用アーチワイヤなどの医療用器具に形状記憶・超弾性特性が利用されています。現在、医療分野において実用化されている形状記憶合金はTi-Ni合金(ニチノール)のみですが、合金の半量を占めるNiには・・・
           </p>
         </div>
 
+        <!-- ✅ 이미지 크게 -->
         <img src="/~sma_lab/images/stent.png"
              alt="Ti-based SMA research"
              style="width:260px; height:auto; border-radius:12px; display:block; flex-shrink:0;">
@@ -43,13 +46,13 @@ Shape memory alloys are widely used in medical devices such as guidewires, stent
   </a>
 
   <!-- 2 -->
-  <a href="/~sma_lab/research/lowyoung/" style="text-decoration:none; color:inherit;">
-    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
+<a href="/~sma_lab/research/lowyoung/" style="text-decoration:none; color:inherit;">    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
       <div style="display:flex; gap:24px; align-items:flex-start; justify-content:space-between;">
 
         <div style="flex:1; min-width:0;">
-          <h3>Research on Low Young’s Modulus Alloys for Biomedical Applications</h3>
-          <p> Pure Ti and other Ti-based alloys are widely used as implant materials due to their excellent biocompatibility. However, their higher stiffness compared with natural bone can cause stress shielding. Our research focuses on developing low-modulus alloys that minimize stress shielding while maintaining adequate strength and durability.
+          <h3 style="margin:0 0 10px 0;">生体用低ヤング率合金の研究</h3>
+          <p style="margin:0; line-height:1.6;">
+            　純Tiやその他のTi合金は優れた生体適合性を示すことから医療分野の中でも特にインプラント材料として広く用いられています。一方で人工股関節などのインプラント用金属材料の抱える問題としてその強度が骨と大きく違うことが挙げられます。体内に埋入されたインプラントは・・・
           </p>
         </div>
 
@@ -62,14 +65,13 @@ Shape memory alloys are widely used in medical devices such as guidewires, stent
   </a>
 
   <!-- 3 -->
-  <a href="/~sma_lab/research/machine/" style="text-decoration:none; color:inherit;">
-    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
+<a href="/~sma_lab/research/machine/" style="text-decoration:none; color:inherit;">    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
       <div style="display:flex; gap:24px; align-items:flex-start; justify-content:space-between;">
 
         <div style="flex:1; min-width:0;">
-          <h3>Development of High-Performance Metallic Materials Using Machine Learning</h3>
-          <p>
-            We apply machine learning to design high-performance biomedical and structural alloys, including Ti- and Zr-based alloys and high-entropy alloys. We focus on optimizing compositional regions for superelasticity and the shape memory effect, enabling next-generation shape memory alloys with enhanced martensitic transformation and elastic properties.
+          <h3 style="margin:0 0 10px 0;">機械学習による高性能金属材料の開発</h3>
+          <p style="margin:0; line-height:1.6;">
+            　機械学習を活用し、生体用Ti-Zr系合金および高エントロピー合金における高性能化を目指した合金設計を行っています。特に、超弾性および形状記憶効果を発現する組成領域の予測と最適化に重点を置いています。実験データと第一原理計算・熱力学計算を統合し、マルテンサイト変態挙動や弾性特性を高精度に予測します。
           </p>
         </div>
 

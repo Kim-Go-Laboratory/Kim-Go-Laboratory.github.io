@@ -11,12 +11,11 @@ sections:
     content:
       title: ""
       text: |-      
-
-       ### Under construction
+       ### Under constructrion
        <br>
-       <br><br><br><br><br><br><br<br><br><br><br><br><br><br><br>><br><br><br><br><br><br><br><br>
+       <br><br><br><br><br><br><br<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-        {{< banner_title "About research" >}}
+        {{< banner_title "About Research" >}}
 
       
 ---

@@ -9,51 +9,33 @@ sections:
     content:
       title: ""
       text: |-
+        ### マルテンサイト変態
+        　形状記憶効果にはマルテンサイト変態が密接に関連しています。マルテンサイト変態とは、固相中における結晶構造相変態の一種で、原子の拡散を伴わずに起こるため、各原子はお互いに連携して移動します。その結果、若干の体積変化を示す擬剪断変形を生じます。これが形状記憶効果の原動力となるのです。<br>　一般に形状記憶合金に現れるマルテンサイト変態は、特に熱弾性型マルテンサイト変態と呼ばれます。鉄系合金は例外として、変態と逆変態の温度履歴差が小さく、数度から数十度となっています。さらに、マルテンサイト相と母相の界面の整合性が良く、マルテンサイト相自身が容易に低応力で再配列するため、永久変形の原因となる転位が形成されません。このような特徴が、形状記憶効果の為の必要条件の一つとなっています。
 
-        {{< rawhtml >}}
-        <style>
-        .justify-text p{
-          text-align: justify;
-          text-justify: inter-word;
-          hyphens: auto;
-          line-height: 1.75;
-          margin-bottom: 1.2em;
-        }
-        .justify-text h3{
-          margin-top: 2.2em;
-          margin-bottom: 0.8em;
-        }
-        </style>
-        <div class="justify-text">
-        {{< /rawhtml >}}
+        ### 形状記憶動作
+     
+        <figure style="float:right; width:45%; margin: 0 0 1em 2em; text-align:center;"> <img src="/~sma_lab/images/sma.png" style="width:100%;" /> <figcaption style="font-size:1.0em; margin-top:0.5em;color:inherit;"> 図1　形状記憶効果と超弾性の機構 </figcaption></figure>
+        　形状記憶効果の動作を簡単のため、二次元結晶で見てみましょう。<br>　まず、図.1(a)の母相がMf点以下になると、図.1(b)に示すようなマルテンサイト相の結晶構造に変わります。三次元の実際の結晶では、24通りの方位のマルテンサイト兄弟晶が形成されます。兄弟晶とは、結晶構造が同じで、結晶方位が異なるマルテンサイト晶のことであり、図.1(b)にはA,Bで示された二種類の方位の兄弟晶が形成されています。個々の兄弟晶は、元の母相から見ると剪断歪みを生じていますが、冷却により形成された兄弟晶は、お互いの歪みを緩和し合うように自己調整して形成されるため、マクロ的には試料形状は変化していません。<br>　一方、形状記憶合金に現れる熱弾性型マルテンサイト変態では、AとBの境界が低応力で簡単に移動するため、マルテンサイト相状態の試料はゴムの様に柔らかくなっています。外力が加わると、図.1(c)の様に外力に対して優先方位の兄弟晶が成長し、試料はマクロ的に剪断することになります。この試料を加熱すると、全てのマルテンサイト晶は母相に逆変態し、その結果、試料形状も図.1(a)の様に完全に元に戻ることになります。これが形状記憶効果です。<br>　マルテンサイト相は一般に、変態温度以下に冷却して生ずるものですが、変態温度以上でも外力を負荷すれば変態を誘起することができます。それは、上述のようにマルテンサイト変態が、剪断変形によって引き起こされるため、外力が変態を助けるためです。そこで、Af点以上の温度で外力を加えると直接図.1(a)から図.1(c)へ、優先方位のマルテンサイト兄弟晶のみが形成され、試料はマクロ的に剪断歪みを生じます。逆変態温度以上の温度では、マルテンサイト相はエネルギー的に不安定なため、外力を除くだけでも図.1(c)から図.1(a)への経路で母相状態へ戻ります。この経路の繰り返しによって、試料はあたかも数10%もの弾性歪みを持っているかのような変形をするため、これを超弾性といいます。 
 
-        ### Martensitic Transformation
+        {{< banner_title "動作原理" >}}
 
-        The shape memory effect is closely related to martensitic transformation. A martensitic transformation is a type of solid-state crystallographic phase transformation that occurs without atomic diffusion. Because diffusion does not take place, the atoms move cooperatively in a coordinated manner. As a result, a pseudo-shear deformation accompanied by a slight volume change is produced. This deformation serves as the driving force behind the shape memory effect.
 
-        In general, the martensitic transformation observed in shape memory alloys is specifically referred to as a thermoelastic martensitic transformation. With the exception of certain ferrous alloys, the temperature hysteresis between forward and reverse transformations is small, typically ranging from several to several tens of degrees. Furthermore, the interface between the martensite phase and the parent phase has good coherency, and the martensite variants can easily reorient under low stress. Therefore, dislocations that would cause permanent deformation are not formed. These characteristics constitute one of the essential conditions for the shape memory effect.
 
-        ### Shape Memory Mechanism
+            
 
-        <figure style="float:right; width:45%; margin: 0 0 1em 2em; text-align:center;">
-          <img src="/~sma_lab/images/sma.png" style="width:100%;" />
-          <figcaption style="font-size:1.0em; margin-top:0.5em;color:inherit;">
-            Figure 1. Mechanisms of the shape memory effect and superelasticity
-          </figcaption>
-        </figure>
 
-        For simplicity, let us examine the operation of the shape memory effect using a two-dimensional crystal model.
 
-        First, when the parent phase shown in Fig. 1(a) is cooled below the Mf temperature, it transforms into the martensite phase shown in Fig. 1(b). In an actual three-dimensional crystal, 24 crystallographic variants of martensite are formed. Variants are martensite crystals that share the same crystal structure but differ in crystallographic orientation. In Fig. 1(b), two variants, labeled A and B, are illustrated. Each individual variant exhibits shear strain relative to the original parent phase. However, the variants formed during cooling self-accommodate in such a way that their strains mutually compensate. As a result, there is no macroscopic change in the specimen shape.
 
-        In thermoelastic martensitic transformations observed in shape memory alloys, the boundary between variants A and B can move easily under low stress. Therefore, in the martensitic state, the specimen becomes soft and deformable, similar to rubber. When an external force is applied, the favorably oriented variant grows at the expense of the other variant, as shown in Fig. 1(c), leading to macroscopic shear deformation of the specimen. When this deformed specimen is heated, all martensite transforms back to the parent phase through reverse transformation, and the specimen completely recovers its original shape as shown in Fig. 1(a). This is the shape memory effect.
 
-        Martensite generally forms upon cooling below the transformation temperature. However, even above the transformation temperature, the application of external stress can induce martensitic transformation. As described above, because martensitic transformation is driven by shear deformation, applied stress assists the transformation. Therefore, when stress is applied at temperatures above the Af temperature, the transformation proceeds directly from Fig. 1(a) to Fig. 1(c), forming only the favorably oriented martensite variant and producing macroscopic shear strain. At temperatures above the reverse transformation temperature, the martensite phase is energetically unstable. Thus, simply removing the applied stress causes the material to return from Fig. 1(c) to Fig. 1(a), reverting to the parent phase. Repetition of this process makes the material appear to exhibit elastic strains of several tens of percent. This phenomenon is known as superelasticity.
 
-        {{< rawhtml >}}
-        </div>
-        {{< /rawhtml >}}
+        
 
-        {{< banner_title "Mechanism" >}}
+        
+
+
+
+
+
+
 
 ---

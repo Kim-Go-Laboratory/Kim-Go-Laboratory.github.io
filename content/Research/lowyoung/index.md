@@ -1,5 +1,5 @@
 ---
-title: Research on Biomedical Low Young’s Modulus Alloys
+title: 生体用低ヤング率合金の研究
 type: landing
 toc: false
 reading_time: false
@@ -9,37 +9,13 @@ sections:
   - block: markdown
     content:
       title: ""
-      text: |-
+      text: |-     
+       ### 生体用低ヤング率合金の研究
+       　純Tiやその他のTi合金は優れた生体適合性を示すことから医療分野の中でも特にインプラント材料として広く用いられています。一方で人工股関節などのインプラント用金属材料の抱える問題としてその強度が骨と大きく違うことが挙げられます。体内に埋入されたインプラントは周囲の骨に接していますが、歩行などでこれらに負荷がかかる際にはヤング率が大きい方の物質、つまりインプラントの方に優先的に応力が伝達します。これを応力遮蔽と呼びます。応力遮蔽が起きると骨に正常に応力が伝達せず、骨吸収と骨の脆弱化が進行します。結果として骨と大きくヤング率が異なるインプラントの埋入は骨密度の損失と骨折リスクの上昇を招くことになります。       
+       　このような問題に対して当研究室では骨に近いヤング率を有するTi合金の開発を行っています。Ti合金の中でも体心立方構造であるβ相を安定化した合金ではそのヤング率が結晶方位に依存して大きく変化することが報告されています。合金の結晶方位は圧延条件や熱処理条件を変えることによって制御ができるので、ヤング率の低い結晶の方位を変形方向に揃えることでTi合金の低ヤング率化が可能であると考えられます。しかしながら組成や圧延、熱処理等の様々なパラメータが最終的な結晶方位に及ぼすメカニズムは解明されておらず、低ヤング率化に向けては様々な課題があります。例えば圧延や熱処理の間にどの結晶方位がどのように変化していくのか、高温で結晶粒がどのように成長していくのか、それらの元素依存性はどのように変化するのか、などが挙げられます。        
+       　これらのメカニズムを方位解析や電子顕微鏡観察、集合組織解析などにより詳細に調査し理解をすることで、インプラントに最適なヤング率を有する合金とプロセスを開発できると考えています。       
+       　またヤング率だけでなく、強度や延性、更には超弾性特性や形状記憶特性も結晶方位を制御することによって劇的に改善することができます。このように結晶方位や組織の制御は材料の最終特性を大きく変化させるので、集合組織の発達のメカニズムを解明しプロセスを確立することはインプラント用Ti合金だけでなく材料開発の分野における大きなブレイクスルーになりえます。
 
-        {{< rawhtml >}}
-        <style>
-        .justify-text p{
-          text-align: justify;
-          text-justify: inter-word;
-          hyphens: auto;
-          line-height: 1.75;
-          margin-bottom: 1.2em;
-        }
-        </style>
-        <div class="justify-text">
-        {{< /rawhtml >}}
-
-        ### Research on Low Young’s Modulus Alloys for Biomedical Applications
-
-        Pure Ti and other Ti alloys exhibit excellent biocompatibility and are therefore widely used as implant materials in the medical field. However, a major issue associated with metallic implant materials, such as artificial hip joints, is the significant difference in stiffness compared with natural bone. Implants embedded in the body are in direct contact with surrounding bone. When mechanical loads are applied during activities such as walking, stress is preferentially transferred to the material with the higher Young’s modulus—namely, the implant. This phenomenon is known as stress shielding. When stress shielding occurs, mechanical stress is not properly transferred to the bone, leading to bone resorption and weakening. As a result, implants with a Young’s modulus significantly different from that of bone can cause bone density loss and an increased risk of fracture.
-
-        To address this issue, our laboratory is developing Ti and/or Zr-based alloys with a Young’s modulus closer to that of bone. Among Ti alloys, those in which the body-centered cubic (BCC) β phase is stabilized have been reported to exhibit strong crystallographic orientation dependence of Young’s modulus. Since crystallographic texture can be controlled by adjusting rolling conditions and heat treatment parameters, aligning low-modulus crystal orientations along the deformation direction may enable the development of low Young’s modulus alloys.
-
-        However, the mechanisms by which composition, rolling, heat treatment, and other processing parameters influence the final crystallographic orientation remain unclear, and several challenges must be addressed to achieve further modulus reduction. For example, it is necessary to understand how specific crystal orientations evolve during rolling and heat treatment, how grains grow at elevated temperatures, and how these processes depend on alloying elements.
-
-        By systematically investigating these mechanisms through orientation analysis, electron microscopy, and texture analysis, we aim to develop optimal alloy compositions and processing routes that achieve Young’s modulus values suitable for biomedical implants.
-
-        In addition to Young’s modulus, mechanical properties such as strength, ductility, superelasticity, and shape memory behavior can also be significantly improved through crystallographic texture control. Because texture and microstructural control strongly influence the final properties of materials, elucidating the mechanisms of texture development and establishing robust processing strategies may lead not only to improved biomedical Ti alloys but also to major breakthroughs in the broader field of materials development.
-
-        {{< rawhtml >}}
-        </div>
-        {{< /rawhtml >}}
-
-        {{< banner_title "About Research" >}}
-
+       {{< banner_title "About research" >}}
+      
 ---

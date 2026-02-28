@@ -96,7 +96,7 @@ hugoblox:
     search: false
     theme_toggle: false
     theme_picker: false
-    language_switcher: true
+    language_switcher: false
     # Call-to-action button
     cta:
       enable: false

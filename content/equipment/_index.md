@@ -74,44 +74,44 @@ h2{
 }
 </style>
 
-<h3>Sample Preparation Equipment</h3>
+<h3>試料作製関連</h3>
 <hr>
 
 <div class="table-scroll">
 <table class="equip-table">
-<tr><td>Arc Melting Furnace||Used to produce alloy buttons by arc melting metals. The alloy composition and impurity removal at this stage largely determine the quality of the final alloy.</td></tr>
-<tr><td>Electric Furnaces||Used for heat treatment of alloys. Various furnaces are available, including high-temperature furnaces and long-term aging furnaces.</td></tr>
-<tr><td>Wire Electrical Discharge Machine (Wire-EDM)||Performs complex and precise machining using arc discharge.</td></tr>
-<tr><td>Cold Rolling Mill||Used for cold rolling of bulk samples through roll processing.</td></tr>
-<tr><td>Rotary Polishing Machine||Used for surface polishing of samples for microstructural observation.</td></tr>
+<tr><td>非消耗電極型アーク炉||金属をアーク溶解してボタン材を作製します。ここでの配合や不純物除去の良し悪しが、最終合金の品質を大きく左右します。</td></tr>
+<tr><td>各種電気炉||合金の熱処理に用います。高温炉や長時間時効炉など、各種の電気炉があります。</td></tr>
+<tr><td>ワイヤー放電加工機||アーク放電を用いて、複雑かつ高精度な加工を行います。</td></tr>
+<tr><td>冷間圧延機||ロール圧延により、バルク試料の冷間圧延を行います。</td></tr>
+<tr><td>回転研磨機||金属組織観察のための表面研磨に用います。</td></tr>
 </table>
 </div>
 
-<h3>Characterization and Property Evaluation Equipment</h3>
+<h3>特性評価関連</h3>
 <hr>
 
 <div class="table-scroll">
 <table class="equip-table">
-<tr><td>Tensile Testing Machine||Used for tensile testing of metallic materials to investigate deformation behavior and mechanical properties.</td></tr>
-<tr><td>Fatigue Testing Machine||Evaluates the fatigue properties of metallic materials under cyclic loading.</td></tr>
-<tr><td>Optical Microscope||Used for observing surface microstructures of samples. Observation is possible up to 1000× magnification. With the attached XYZ linear stage, precise dimensional measurements can also be performed.</td></tr>
-<tr><td>Scanning Electron Microscope (SEM-EBSD)||A microscope that observes images obtained from electrons reflected after irradiating the sample with an electron beam. Suitable for observing surface morphology and for crystal orientation analysis.</td></tr>
-<tr><td>X-ray Diffractometer (XRD)||Used for phase identification and for examining lattice parameters and crystallographic orientation distributions. Measurements can be performed from low to high temperatures.</td></tr>
-<tr><td>Thermomechanical Analyzer (TMA)||Evaluates mechanical properties under varying temperature and load conditions. Shape memory properties can be analyzed from temperature–strain curves.</td></tr>
-<tr><td>Differential Scanning Calorimeter (DSC)||Measures phase transformation temperatures and associated heat in metals. Low- to mid-temperature DSC is used for martensitic transformation temperatures, while high-temperature DSC is used for melting points and order–disorder transformations.</td></tr>
-<tr><td>Hardness Tester||Performs indentation hardness tests such as Vickers hardness and Knoop hardness measurements.</td></tr>
+<tr><td>引張試験機||形状記憶合金の引張試験を行い、変形挙動や一般的な機械特性を評価します。</td></tr>
+<tr><td>疲労試験機||金属材料の繰返し荷重に対する強さ（疲労特性）を評価します。</td></tr>
+<tr><td>光学顕微鏡||試料表面の組織観察に用います。最大1000倍まで観察可能です。付属のXYZリニアステージにより、精密な寸法測定も行えます。</td></tr>
+<tr><td>走査型電子顕微鏡 (SEM-EBSD)||試料に電子線を照射し、反射電子などから得られる像を観察します。表面形状や表面近傍の内部構造観察に適しています。</td></tr>
+<tr><td>X線回折装置||相同定、格子定数、結晶方位分布の評価に用います。低温から高温まで測定可能です。</td></tr>
+<tr><td>熱機械分析装置 (TMA)||温度や荷重を変化させながら機械的特性を評価します。温度-ひずみ曲線などから形状記憶特性の解析が可能です。</td></tr>
+<tr><td>示差走査熱量計 (DSC)||金属の相変態温度および変態熱を測定します。中低温DSCはマルテンサイト変態温度、高温DSCは融点や規則-不規則変態などの評価に用います。</td></tr>
+<tr><td>硬度計||ビッカース硬度、ヌープ硬度などの圧痕硬度試験を行います。</td></tr>
 </table>
 </div>
 
-<h3>Shared Facilities</h3>
+<h3>共通設備</h3>
 <hr>
 
 <div class="table-scroll">
 <table class="equip-table">
-<tr><td>Electron Probe Microanalyzer (EPMA)||Measures the composition of fabricated alloys, ribbons, thin films, and other materials.</td></tr>
-<tr><td>X-ray Photoelectron Spectroscopy (XPS)||Determines elemental composition, chemical bonding states, and electronic states of solid sample surfaces by measuring the kinetic energy of photoelectrons emitted under ultra-high vacuum conditions via the photoelectric effect.</td></tr>
-<tr><td>Focused Ion Beam (FIB)||Processes sample surfaces by sputtering with an ion beam. This technique is used to prepare specimens for TEM observation.</td></tr>
-<tr><td>Transmission Electron Microscope (TEM)||Observes magnified images formed by electrons transmitted through a sample. With lattice imaging resolution down to 0.1 nm, atomic arrangements can be observed. Using heating and cooling holders, in-situ observation of phase transformations is also possible.</td></tr>
+<tr><td>電子線マイクロアナライザ (EPMA)||作製した合金、リボン、薄膜などの組成を測定します。</td></tr>
+<tr><td>X線光電子分光装置 (XPS)||超高真空中で固体試料表面にX線を照射し、光電効果で放出される光電子の運動エネルギーを測定します。表面の元素組成、化学結合状態、電子状態を解析できます。</td></tr>
+<tr><td>集束イオンビーム (FIB)||イオンビームによるスパッタリングで試料表面を加工します。TEM観察用試料の作製などに用います。</td></tr>
+<tr><td>透過型電子顕微鏡 (TEM)||試料を透過した電子による像を拡大して観察します。格子像で0.1 nmの分解能を持ち、原子配列の観察が可能です。加熱・冷却ホルダーにより、相変態のその場観察も行えます。</td></tr>
 </table>
 </div>
 

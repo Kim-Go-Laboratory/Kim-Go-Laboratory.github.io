@@ -9,38 +9,20 @@ sections:
   - block: markdown
     content:
       title: 
-      text: |-
+      text: |- 
+        ### 形状記憶合金とは
 
-        {{< rawhtml >}}
-        <style>
-        .justify-text p{
-          text-align: justify;
-          text-justify: inter-word;
-          hyphens: auto;
-          line-height: 1.75;
-          margin-bottom: 1.2em;
-        }
-        </style>
-        <div class="justify-text">
-        {{< /rawhtml >}}
-        ### What is a shape memory alloy?
+        　金属に外力を加えると変形が生じます。通常の金属では塑性変形をするとずっとそのままですが、形状記憶合金では加熱すると形状が回復し、記憶処理をした元の形状に戻ります。これを形状記憶効果といいます。形状記憶合金とは形状記憶効果を持つ合金の総称です。
 
-        When an external force is applied to a metal, deformation occurs. In ordinary metals, once plastic deformation takes place, the material remains permanently deformed. However, in shape memory alloys, heating causes the material to recover its original shape that was manufactured through prior treatment. This phenomenon is known as the shape memory effect. A shape memory alloy is a general term for alloys that exhibit this effect.
+        　形状記憶合金の実用材としての材料開発及び実用化は、1980年代に入ってから急速に進められてきました。1980年代後半には、毎年1000件以上の応用に関する特許及び実用新案の申請が行われました。申請分野は、電気、機械、運輸、化学、医療、エネルギー、生活用品と多岐にわたり、産業のほとんどの分野に及んでおり、応用に対する期待が大きいことを示しています。
 
-        The development and practical application of shape memory alloys as engineering materials progressed rapidly beginning in the 1980s. In the latter half of that decade, more than 1,000 patents and utility model applications related to their applications were filed annually. These applications spanned a wide range of fields, including electrical engineering, mechanical engineering, transportation, chemistry, medicine, energy, and consumer products. Their presence across nearly all industrial sectors indicates the strong expectations for practical applications.
+        　歴史的には、合金における形状記憶効果は、1951年にAu-Cd合金において始めて発見され、続いて1953年には、In-Tl合金でも報告されています。しかしこの時点では、形状記憶効果は単に学問的興味の対象でしかなく、限られた材料にしか出現しないものと思われ、実用化への動きはありませんでした。
 
-        Historically, the shape memory effect in alloys was first discovered in 1951 in an Au–Cd alloy, and subsequently reported in 1953 in an In–Tl alloy. At that time, however, the effect was regarded merely as a subject of academic interest. It was believed to occur only in limited materials, and there was no movement toward practical application.
+        　形状記憶効果の実用化への期待が高まったのは、1963年にTi-Ni形状記憶合金が報告されてからとなります。その後、多くの非鉄及び鉄系合金において次々に形状記憶効果が見いだされ、結晶構造、形状記憶の機構、変態および変形挙動等の基本的性質が十分理解できる段階に至っています。しかしながら、実用的には未だ、Ti-Ni合金に勝る材料はなく、ほとんどの応用はTi-Ni合金を用いて行われています。
 
-        Interest in the practical use of the shape memory effect increased significantly after the report of the Ti–Ni shape memory alloy in 1963. Thereafter, the shape memory effect was successively discovered in many non-ferrous and ferrous alloys. Fundamental properties, such as crystal structure, the mechanism of the shape memory effect, phase transformations, and deformation behavior, have since been thoroughly investigated and are now well understood. Nevertheless, from a practical standpoint, no material has yet surpassed Ti–Ni alloys, and most applications continue to rely on them.
+        　Ti-Ni合金は、その発見以来多くの研究がなされてきましたが、約20年間は謎に包まれた材料であり、その間の研究成果の大半は誤りでした。1980年代に入ってからは、Ti-Ni合金の研究上の困難さが解決され始めると共に、材料特許が切れたこともあって、材料学的な基本特性がほぼ解明されると共に、上述のように数多くの特許申請がなされ、今に至っています。
 
-        Although extensive research has been conducted on Ti–Ni alloys since their discovery, the material remained enigmatic for nearly two decades, and much of the early research was later found to be incorrect. Beginning in the 1980s, research difficulties associated with Ti–Ni alloys gradually began to be resolved. At the same time, as material patents expired, the fundamental materials science properties were largely clarified. As mentioned above, this period also saw a significant increase in patent applications, continuing to the present day.
-
-        Familiar practical applications include temperature control components in coffee makers and rice cookers, as well as components requiring precise and rapid control, such as retractable automobile headlights and thermostats. Currently, research on shape memory alloys continues with the aim of achieving higher response speeds and improved safety, and their range of practical applications is expected to expand further.
-
-        {{< rawhtml >}}
-        </div>
-        {{< /rawhtml >}}
+        　身近な実用例としては珈琲メーカーや、炊飯器などの温度調節が必要な箇所、自動車のリトラクタブルライトやサーモスタットなどの正確で素早い制御が必要な箇所などで多く用いられています。現在、形状記憶合金は更なる高速化や安全性の向上を目指して研究がなされており、実用域は更に広がるものと考えられています。
 
         {{< banner_title "Shape Memory Alloy" >}}
-
 ---

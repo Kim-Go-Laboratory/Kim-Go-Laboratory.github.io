@@ -3,27 +3,26 @@
 
 {{< banner_title "Access" >}}
 
-### Access
+### アクセス
 ---
 
 <p class="access-link">
   <a href="https://www.tsukuba.ac.jp/access/tsukuba-access/" target="_blank">
-    ▶ How to access University of Tsukuba
+    ▶ 筑波大学への行き方はこちら
   </a>
 </p>
 
 
 
-### Address
+### 所在地
 ---
 
-F435, Engineering Sciences Building 3F<br>
-Third Area, University of Tsukuba <br>
-1-1-1 Tennodai, Tsukuba, Ibaraki 305-8577 <br> 
-Japan
+〒305-8577<br>
+茨城県つくば市天王台1-1-1<br>
+第三エリア工学系学系　F棟435号室
 
 
-### Google Map (3F Building at Universtiy of Tsukuba)
+### Google Map (筑波大学3F棟)
 ---
 <div style="width:100%; height:650px;">
   <iframe

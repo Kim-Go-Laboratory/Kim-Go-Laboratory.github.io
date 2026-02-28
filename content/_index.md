@@ -13,7 +13,7 @@ sections:
   - block: hero
     id: home-hero
     content:
-      title: "Shaping the Future Through Materials Innovation"
+      title: "現代・未来の産業技術を支える金属材料の開発"
       text: "KIM-GO Laboratory"
     design:
       spacing:
@@ -65,11 +65,11 @@ sections:
       title: ''
       subtitle: ''
       text: |-
-              
+             
+
                    <h2 class="news-title">News &amp; Events</h2>
                    {{< news_table >}}
-
-  
+              
        
 
         
@@ -116,4 +116,3 @@ sections:
         css_class: 'bg-primary-300 dark:bg-primary-700'
         css_style: ''
 ---
-

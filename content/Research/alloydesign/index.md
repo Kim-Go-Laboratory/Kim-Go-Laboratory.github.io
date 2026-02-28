@@ -1,36 +1,25 @@
 ---
-title: Biomedical Shape Memory and Superelastic Alloys
+title: 生体用Ti基形状記憶・超弾性合金の研究・開発
 type: landing
+
 
 sections:
   - block: markdown
     content:
       title: ""
-      text: |-
+      text: |-      
+        {{< banner_title "About research" >}}
+        ### 生体用Ti基形状記憶・超弾性合金の研究・開発
+        　形状記憶合金は医療分野でも使用されており、ガイドワイヤ、ステント、歯列矯正用アーチワイヤなどの医療用器具に形状記憶・超弾性特性が利用されています。
 
-        {{< rawhtml >}}
-        <style>
-        .justify-text p{
-          text-align: justify;
-          text-justify: inter-word;
-          hyphens: auto;
-          line-height: 1.75;
-          margin-bottom: 1.2em;
-        }
-        </style>
-        <div class="justify-text">
-        {{< /rawhtml >}}
-     
-        {{< banner_title "About Research" >}}
-        ### Development of Biomedical Shape Memory and Superelastic Alloys
-        Shape memory alloys are widely used in the medical field, where their shape memory and superelastic properties are applied to medical devices such as guidewires, stents, and orthodontic archwires.
+        　現在、医療分野において実用化されている形状記憶合金はTi-Ni合金(ニチノール)のみですが、合金の半量を占めるNiには強い生体アレルギー性があります。ただし、Ti-Ni合金の医療分野での使用に際して、現在までにNiの問題はほとんど報告されていません。この理由としては、Ti-Ni合金は規則格子構造であり、TiとNiの結合力が強いためにNiが溶出しにくいことなどが考えられます。しかし、使用者側のNiアレルギーに対する不安を完全には拭えません。そこで、形状記憶合金の医療分野での利用をさらに加速させるためにも、Niフリーのβ型Ti基形状記憶・超弾性合金を開発することが不可欠となっています。表1に、これまでに報告されたNiフリーβ型Ti基形状記憶合金を示します。
 
-        Currently, the only shape memory alloy commercially used in medical applications is the Ti–Ni alloy (Nitinol). However, Ni, which accounts for approximately half of the alloy composition, has strong allergenic potential. Although very few problems related to Ni have been reported in clinical applications of Ti–Ni alloys, this is thought to be due to their ordered crystal structure and the strong bonding between Ti and Ni, which suppresses Ni ion release. Nevertheless, concerns regarding Ni allergy among patients cannot be completely eliminated. Therefore, to further accelerate the application of shape memory alloys in the medical field, the development of Ni-free β-type Ti-based shape memory and superelastic alloys is essential. Table 1 summarizes Ni-free β-type Ti-based shape memory alloys reported to date.
+        **表1　現在までに報告されている生体用Ti基形状記憶合金**
 
-        **Table 1. Reported Biomedical Ni-Free β-Type Ti-Based Shape Memory Alloys**
         <div class="table-wrapper">
 
-        | Alloy System | Reference |
+
+        | 合金系 | 文献 |
         |---|---|
         | Ti-Mo-Ga | H. Hosoda, Y. Omatsu and S. Miyazaki (2001) |
         | Ti-Mo-Al | H. Hosoda, N. Hosoda and S. Miyazaki (2001) |
@@ -41,32 +30,26 @@ sections:
         | Ti-Nb-Zr | J. I. Kim, H. Y. Kim, T. Inamura, H. Hosoda and S. Miyazaki (2005) |
         | Ti-Nb-Ta | H. Y. Kim, S. Hashimoto, J. I. Kim, T. Inamura, H. Hosoda and S. Miyazaki (2006) |
         | Ti-Nb-Pt | H. Y. Kim, N. Oshika, J. I. Kim, T. Inamura, H. Hosoda and S. Miyazaki (2007) |
+
         </div>
+        
 
-        β-type Ti alloys are characterized by a lower Young’s modulus (~60 GPa) compared with pure Ti and (α+β)-type Ti alloys (~100 GPa). Because this value is closer to that of bone (~20 GPa), β-type Ti alloys have attracted significant attention as next-generation biomedical metallic materials for bone replacement such as bone plates and artificial hip joints. In recent years, extensive research has been conducted worldwide on β-type Ti alloys, with particular emphasis on achieving both low Young’s modulus and high strength—properties.
 
-        Our research group has developed new alloys based on Ti–Nb and Ti–Mo binary systems by adding biocompatible elements such as Ta, Zr, Hf, Au, Pt, Sn, O, and N. We have systematically investigated the effects of these alloying elements on shape memory behavior, superelasticity, and mechanical properties (Fig. 1). In addition, we have reported various approaches to controlling microstructures—such as precipitates and crystallographic texture—through thermomechanical processing to further improve material performance.
+        　また、β型Ti合金は、純Tiやα+β型Ti合金(～100GPa)に比べてヤング率が低いこと(～60GPa)が特徴です。その値が骨のヤング率(～20GPa)に近いことから、β型Ti合金はボーンプレートや人工股関節などの骨の代替器具に使用される新たな生体用金属材料として注目されています。β型Ti合金に対する研究は、近年、国内外で活発に行われており、低ヤング率かつ高強度という相反する性質を両立させた合金の開発が求められています。
 
-        Below are examples of alloy systems we have developed. Figure 2 shows a representative stress–strain curve of a biomedical Ti-based superelastic alloy developed in our laboratory.
+        　私達はこれまでに、Ti-Nb二元系およびTi-Mo二元系合金をベースとして、Ta、Zr、Hf、Au、Pt、Sn、O、Nなどの生体に安全な元素を添加した新しい合金の開発を行ってきました。そして、各種添加元素が形状記憶・超弾性特性や機械的特性に及ぼす影響を調べてきました(図1)。また、加工熱処理による、析出物や結晶方位などの内部組織制御および特性改善について様々な報告をしてきました。
 
-        ・Examples of developed alloy systems  
-        Ti–Nb–(Ta, Zr) alloys, Ti–Zr–Nb–(Ta, Sn) alloys, Ti–Nb–(O, N, C) alloys, Ti–Nb–Zr–Ta–(O, N) alloys
+        　以下に、現在までに開発を行った合金系の一例を示します。また、図2に、我々が開発した生体用Ti基超弾性合金の応力-歪み曲線の一例を示します。
 
-        <div style="display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap; margin: 16px 0;">
-          <figure style="flex:1; min-width:280px; margin:0;">
-            <img src="/~sma_lab/images/Fig1.png" alt="Figure 1" style="width:100%; height:auto; border-radius:6px;">
-            <figcaption style="font-size:1.0em; opacity:1.0; margin-top:6px; text-align:center; color:inherit;">
-              Figure 1. Effects of Various Alloying Elements
-            </figcaption>
-          </figure>
+        ・ 開発した合金系の一例
+        Ti-Nb-(Ta, Zr)合金、Ti-Zr-Nb-(Ta, Sn)合金、Ti-Nb-(O, N, C)合金、Ti-Nb-Zr-Ta-(O, N)合金
 
-          <figure style="flex:1; min-width:280px; margin:0;">
-            <img src="/~sma_lab/images/Fig2.png" alt="Figure 2" style="width:93.4%; height:auto; border-radius:6px;">
-            <figcaption style="font-size:1.0em; opacity:1.0; margin-top:6px; text-align:center; color:inherit;">
-              Figure 2. Stress–Strain Curve of a Developed Biomedical Ti-Based Superelastic Alloy
-            </figcaption>
-          </figure>
-        </div>
+        <div style="display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap; margin: 16px 0;">  <figure style="flex:1; min-width:280px; margin:0;">    <img src="/~sma_lab/images/Fig1.png" alt="図1" style="width:100%; height:auto; border-radius:6px; ">    <figcaption style="font-size:1.0em; opacity:1.0; margin-top:6px; text-align:center; color:inherit;">図1　様々な添加元素の効果</figcaption>  </figure>
+        
+        <figure style="flex:1; min-width:280px; margin:0;">    <img src="/~sma_lab/images/Fig2.png" alt="図2" style="width:93.4%; height:auto; border-radius:6px;">    <figcaption style="font-size:1.0em;  opacity:1.0; margin-top:6px; text-align:center;color:inherit;">図2　開発した生体用Ti基超弾性合金の応力-歪み曲線</figcaption>  </figure></div>
 
-        Currently, in addition to alloy design, development, and evaluation aimed at improved performance and practical application, we are conducting crystallographic analyses of martensitic transformation and investigating strategies to further reduce the Young’s modulus of β-type Ti alloys through transformation-based mechanisms.
+        　現在は、より良い特性や実用化を目指した合金設計、開発、評価に加え、マルテンサイト変態に関する結晶学的な解析や、マルテンサイト変態を利用したβ型Ti合金の低ヤング率化などについても研究を行っています。
+
+        
+
 ---
