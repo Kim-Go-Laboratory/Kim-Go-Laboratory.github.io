@@ -2,7 +2,7 @@
  
   en:
     languageCode: en-us
-    contentDir: content
+    contentDir: content/
     languageName: English
     baseURL: "https://www.ims.tsukuba.ac.jp/~sma_lab/"
     weight: 1
