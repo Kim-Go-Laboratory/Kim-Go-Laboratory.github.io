@@ -4,8 +4,10 @@
     languageCode: en-us
     contentDir: content/
     languageName: English
-    baseURL: "https://www.ims.tsukuba.ac.jp/~sma_lab/"
     weight: 1
+    baseURL: "https://www.ims.tsukuba.ac.jp/~sma_lab/"
+
+
 
   ja:
     languageCode: ja
@@ -13,4 +15,6 @@
     languageName: 日本語
     weight: 2
     baseURL: "https://www.ims.tsukuba.ac.jp/~sma_lab/"
+
+
 

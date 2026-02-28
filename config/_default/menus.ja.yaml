@@ -34,7 +34,7 @@ main:
 
 
   - name: 研究設備
-    url: /Equipment/    
+    url: /equipment/    
     weight: 14
 
   - name: 成果

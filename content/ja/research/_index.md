@@ -13,7 +13,7 @@
 <div class="research-cards">
 
   <!-- 1 -->
-<a href="/~sma_lab/ja/research/alloydesign/" style="text-decoration:none; color:inherit;">    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
+<a href="/~sma_lab/research/alloydesign/" style="text-decoration:none; color:inherit;">    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
       <div style="display:flex; gap:24px; align-items:flex-start; justify-content:space-between;">
 
         <!-- 텍스트 -->
@@ -34,7 +34,7 @@
   </a>
 
   <!-- 2 -->
-<a href="/~sma_lab/ja/research/lowyoung/" style="text-decoration:none; color:inherit;">    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
+<a href="/~sma_lab/research/lowyoung/" style="text-decoration:none; color:inherit;">    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
       <div style="display:flex; gap:24px; align-items:flex-start; justify-content:space-between;">
 
         <div style="flex:1; min-width:0;">
@@ -53,7 +53,7 @@
   </a>
 
   <!-- 3 -->
-<a href="/~sma_lab/ja/research/machine/" style="text-decoration:none; color:inherit;">    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
+<a href="/~sma_lab/research/machine/" style="text-decoration:none; color:inherit;">    <div style="padding:26px; border:1px solid #ddd; border-radius:12px; background:#fff;">
       <div style="display:flex; gap:24px; align-items:flex-start; justify-content:space-between;">
 
         <div style="flex:1; min-width:0;">
