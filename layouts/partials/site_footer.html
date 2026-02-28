@@ -16,7 +16,7 @@
       <!-- RIGHT MENU (언어별 변경) -->
       <nav class="lab-footer__menu" aria-label="Footer navigation">
 
-        {{ if eq .Site.Language.Lang "ja" }}
+
 
           <a href="{{ "/~sma_lab/" | relLangURL }}">ホーム</a>
           <a href="{{ "/~sma_lab/history/top" | relLangURL }}">形状記憶合金とは</a>
@@ -28,19 +28,9 @@
           <a href="{{ "/~sma_lab/howtojoin/" | relLangURL }}">配属希望の方へ</a>
           <a href="{{ "/~sma_lab/access/" | relLangURL }}">アクセス</a>
 
-        {{ else }}
 
-          <a href="{{ "/~sma_lab/en/" | relLangURL }}">Home</a>
-          <a href="{{ "/~sma_lab/en/history/top" | relLangURL }}">Shape Memory Alloy</a>
-          <a href="{{ "/~sma_lab/en/members/" | relLangURL }}">Members</a>
-          <a href="{{ "/~sma_lab/en/research/" | relLangURL }}">Research</a>
-          <a href="{{ "/~sma_lab/en/equipment/" | relLangURL }}">Facility</a>
-          <a href="{{ "/~sma_lab/en/achievement/" | relLangURL }}">Publications</a>
-          <a href="{{ "/~sma_lab/en/experience/" | relLangURL }}">Gallery</a>
-          <a href="{{ "/~sma_lab/en/howtojoin/" | relLangURL }}">Join Us</a>
-          <a href="{{ "/~sma_lab/en/access/" | relLangURL }}">Access</a>
 
-        {{ end }}
+
 
       </nav>
     </div>
